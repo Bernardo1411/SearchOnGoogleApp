@@ -1,0 +1,3936 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="AmFMpMe9tdD7tYHZ5DTQG/aRAYYkWIQDI/+Hwz5Y7OagTtDB3LA01RMKTpQ8jCqukCmZ7HDuCpEwx7WwAiFBywoAAAByeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb20uYnI6NDQzIiwiZmVhdHVyZSI6IkxvbmdBbmltYXRpb25GcmFtZVRpbWluZyIsImV4cGlyeSI6MTcwOTY4MzE5OSwiaXNTdWJkb21haW4iOnRydWV9"
+      http-equiv="origin-trial"
+    />
+    <meta
+      content="/images/branding/googleg/1x/googleg_standard_color_128dp.png"
+      itemprop="image"
+    />
+    <title>programming tutorials - Pesquisa Google</title>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      (function () {
+        document.documentElement.addEventListener(
+          "submit",
+          function (b) {
+            var a;
+            if ((a = b.target)) {
+              var c = a.getAttribute("data-submitfalse");
+              a = "1" === c || ("q" === c && !a.elements.q.value) ? !0 : !1;
+            } else a = !1;
+            a && (b.preventDefault(), b.stopPropagation());
+          },
+          !0
+        );
+        document.documentElement.addEventListener(
+          "click",
+          function (b) {
+            var a;
+            a: {
+              for (
+                a = b.target;
+                a && a !== document.documentElement;
+                a = a.parentElement
+              )
+                if ("A" === a.tagName) {
+                  a = "1" === a.getAttribute("data-nohref");
+                  break a;
+                }
+              a = !1;
+            }
+            a && b.preventDefault();
+          },
+          !0
+        );
+      }.call(this));
+      (function () {
+        var a = window.performance;
+        window.start = Date.now();
+        a: {
+          var b = window;
+          if (a) {
+            var c = a.timing;
+            if (c) {
+              var d = c.navigationStart,
+                f = c.responseStart;
+              if (f > d && f <= window.start) {
+                window.start = f;
+                b.wsrt = f - d;
+                break a;
+              }
+            }
+            a.now && (b.wsrt = Math.floor(a.now()));
+          }
+        }
+        window.google = window.google || {};
+        var h = function (g) {
+          g && g.target.setAttribute("data-iml", String(Date.now()));
+        };
+        document.documentElement.addEventListener("load", h, !0);
+        google.rglh = function () {
+          document.documentElement.removeEventListener("load", h, !0);
+        };
+      }.call(this));
+      (function () {
+        window.google.erd = { jsr: 1, bv: 1957, de: true };
+      })();
+      (function () {
+        var sdo = false;
+        var mei = 10;
+        var h = this || self;
+        var k,
+          l = null != (k = h.mei) ? k : 1,
+          n,
+          p = null != (n = h.sdo) ? n : !0,
+          q = 0,
+          r,
+          t = google.erd,
+          v = t.jsr;
+        google.ml = function (a, b, d, m, e) {
+          e = void 0 === e ? 2 : e;
+          b && (r = a && a.message);
+          void 0 === d && (d = {});
+          d.cad = "ple_" + google.ple + ".aple_" + google.aple;
+          if (google.dl) return google.dl(a, e, d), null;
+          b = d;
+          if (0 > v) {
+            window.console && console.error(a, b);
+            if (-2 === v) throw a;
+            b = !1;
+          } else
+            b =
+              !a ||
+              !a.message ||
+              "Error loading script" === a.message ||
+              (q >= l && !m)
+                ? !1
+                : !0;
+          if (!b) return null;
+          q++;
+          d = d || {};
+          b = encodeURIComponent;
+          var c = "/gen_204?atyp=i&ei=" + b(google.kEI);
+          google.kEXPI && (c += "&jexpid=" + b(google.kEXPI));
+          c +=
+            "&srcpg=" + b(google.sn) + "&jsr=" + b(t.jsr) + "&bver=" + b(t.bv);
+          var f = a.lineNumber;
+          void 0 !== f && (c += "&line=" + f);
+          var g = a.fileName;
+          g &&
+            (0 < g.indexOf("-extension:/") && (e = 3),
+            (c += "&script=" + b(g)),
+            f &&
+              g === window.location.href &&
+              ((f = document.documentElement.outerHTML.split("\n")[f]),
+              (c +=
+                "&cad=" + b(f ? f.substring(0, 300) : "No script found."))));
+          google.ple && 1 === google.ple && (e = 2);
+          c += "&jsel=" + e;
+          for (var u in d) (c += "&"), (c += b(u)), (c += "="), (c += b(d[u]));
+          c = c + "&emsg=" + b(a.name + ": " + a.message);
+          c = c + "&jsst=" + b(a.stack || "N/A");
+          12288 <= c.length && (c = c.substr(0, 12288));
+          a = c;
+          m || google.log(0, "", a);
+          return a;
+        };
+        window.onerror = function (a, b, d, m, e) {
+          r !== a &&
+            ((a = e instanceof Error ? e : Error(a)),
+            void 0 === d || "lineNumber" in a || (a.lineNumber = d),
+            void 0 === b || "fileName" in a || (a.fileName = b),
+            google.ml(
+              a,
+              !1,
+              void 0,
+              !1,
+              "SyntaxError" === a.name ||
+                "SyntaxError" === a.message.substring(0, 11) ||
+                -1 !== a.message.indexOf("Script error")
+                ? 3
+                : 0
+            ));
+          r = null;
+          p && q >= l && (window.onerror = null);
+        };
+      })();
+      (function () {
+        var c = [],
+          e = 0;
+        window.ping = function (b) {
+          -1 == b.indexOf("&zx") && (b += "&zx=" + Date.now());
+          var a = new Image(),
+            d = e++;
+          c[d] = a;
+          a.onerror =
+            a.onload =
+            a.onabort =
+              function () {
+                delete c[d];
+              };
+          a.src = b;
+        };
+      }.call(this));
+    </script>
+    <style>
+      a {
+        color: #1a0dab;
+        text-decoration: none;
+        tap-highlight-color: rgba(0, 0, 0, 0.1);
+      }
+      a:visited {
+        color: #4b11a8;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      img {
+        border: 0;
+      }
+      html {
+        font-family: arial, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        text-size-adjust: 100%;
+        color: #3c4043;
+        word-wrap: break-word;
+        background-color: #fff;
+      }
+      .bRsWnc {
+        background-color: #fff;
+        border-top: 1px solid #dadce0;
+        height: 39px;
+        overflow: hidden;
+      }
+      .N6RWV {
+        height: 51px;
+        overflow-scrolling: touch;
+        overflow-x: auto;
+        overflow-y: hidden;
+      }
+      .Uv67qb {
+        box-pack: justify;
+        font-size: 12px;
+        line-height: 37px;
+        justify-content: space-between;
+        justify-content: space-between;
+      }
+      .Uv67qb a,
+      .Uv67qb span {
+        color: #70757a;
+        display: block;
+        flex: none;
+        padding: 0 16px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      span.OXXup {
+        border-bottom: 2px solid #4285f4;
+        color: #4285f4;
+        font-weight: bold;
+      }
+      a.eZt8xd:visited {
+        color: #70757a;
+      }
+      .FElbsf {
+        border-left: 1px solid rgba(0, 0, 0, 0.12);
+      }
+      header article {
+        overflow: visible;
+      }
+      .Pg70bf {
+        height: 39px;
+        display: box;
+        display: flex;
+        display: flex;
+        width: 100%;
+      }
+      .H0PQec {
+        position: relative;
+        flex: 1;
+      }
+      .sbc {
+        display: flex;
+        width: 100%;
+      }
+      .Pg70bf input {
+        margin: 2px 4px 2px 8px;
+      }
+      .x {
+        width: 26px;
+        color: #70757a;
+        font: 27px/38px arial, sans-serif;
+        line-height: 40px;
+      }
+      #qdClwb {
+        flex: 0 0 auto;
+        width: 39px;
+        height: 39px;
+        border-bottom: 0;
+        padding: 0;
+        border-top-right-radius: 8px;
+        background-color: #1a73e8;
+        border: 1px solid #1a73e8;
+        background-image: url(data:image/gif;base64,R0lGODdhJAAjAPIHAODr/nCk+MPZ/FmV96zK+/7+/5K5+kqL9iwAAAAAJAAjAEADani63P4wykmbKcQRXDscQAEMXmmeaLQVLCukzyC09AjfeK7v/MAajACLhPMVAgwjsUcEiZa8xgAYrVqv2Kx2iwsIAAABknfBBAKrTE4IcMyot8ur8datqIbQfJdnAfo2WE6BV05wXIiJigkAOw==);
+      }
+      .sc {
+        font-size: 16px;
+        position: absolute;
+        top: 39px;
+        left: 0;
+        right: 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        z-index: 2;
+        background-color: #fff;
+      }
+      .sc > div {
+        padding: 10px 10px;
+        padding-left: 16px;
+        padding-left: 14px;
+        border-top: 1px solid #dfe1e5;
+      }
+      .scs {
+        background-color: #fafafa;
+      }
+      .noHIxc {
+        display: block;
+        font-size: 16px;
+        padding: 0 0 0 8px;
+        flex: 1;
+        height: 35px;
+        outline: none;
+        border: none;
+        width: 100%;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        overflow: hidden;
+      }
+      .sbc input[type="text"] {
+        background: none;
+      }
+      .bz1lBb {
+        background-color: #fff;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0 0 0 1px #dfe1e5;
+        margin-top: 24px;
+      }
+      .KP7LCb {
+        border-radius: 0 0 8px 8px;
+        box-shadow: 0px 1px 0px 1px #dfe1e5;
+        margin-bottom: 30px;
+        overflow: hidden;
+      }
+      html {
+        background-color: #fff;
+      }
+      body {
+        margin: 0 auto 0 156px;
+        max-width: 652px;
+        min-width: 652px;
+        padding: 0 8px;
+      }
+      .cOl4Id {
+        letter-spacing: -1px;
+        text-align: center;
+        font: 22pt Futura, Arial, sans-serif;
+        height: 37px;
+        font-smoothing: antialiased;
+        padding: 32px 28px 0 24px;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      .cOl4Id span {
+        display: inline-block;
+      }
+      .V6gwVd {
+        color: #4285f4;
+      }
+      .iWkuvd {
+        color: #ea4335;
+      }
+      .cDrQ7 {
+        color: #fcc934;
+      }
+      .ntlR9 {
+        color: #34a853;
+      }
+      .tJ3Myc {
+        -webkit-transform: rotate(-20deg);
+        position: relative;
+        left: -1px;
+        display: inline-block;
+      }
+      footer {
+        text-align: center;
+        margin-top: 18px;
+      }
+      footer a,
+      footer a:visited,
+      .smiUbb {
+        color: #70757a;
+      }
+      .xeDNfc {
+        margin: 0 13px;
+        display: inline-block;
+      }
+      #EOlPnc {
+        margin-top: 36px;
+      }
+      #EOlPnc > div {
+        margin: 20px;
+      }
+      .Srfpq {
+        color: #70757a;
+      }
+    </style>
+  </head>
+  <body jsmodel="hspDDf ">
+    <header id="hdr">
+      <script nonce="WjSt_V65YsYrcLpuCtabBA">
+        (function () {
+          var k = this || self,
+            l = function (a) {
+              var b = typeof a;
+              return ("object" == b && null != a) || "function" == b;
+            },
+            m = function (a, b) {
+              function c() {}
+              c.prototype = b.prototype;
+              a.j = b.prototype;
+              a.prototype = new c();
+              a.prototype.constructor = a;
+              a.l = function (d, e, f) {
+                for (
+                  var g = Array(arguments.length - 2), h = 2;
+                  h < arguments.length;
+                  h++
+                )
+                  g[h - 2] = arguments[h];
+                return b.prototype[e].apply(d, g);
+              };
+            };
+          var n = Array.prototype.indexOf
+            ? function (a, b) {
+                return Array.prototype.indexOf.call(a, b, void 0);
+              }
+            : function (a, b) {
+                if ("string" === typeof a)
+                  return "string" !== typeof b || 1 != b.length
+                    ? -1
+                    : a.indexOf(b, 0);
+                for (var c = 0; c < a.length; c++)
+                  if (c in a && a[c] === b) return c;
+                return -1;
+              };
+          var p = function (a) {
+              return "string" == typeof a.className
+                ? a.className
+                : (a.getAttribute && a.getAttribute("class")) || "";
+            },
+            q = function (a, b) {
+              "string" == typeof a.className
+                ? (a.className = b)
+                : a.setAttribute && a.setAttribute("class", b);
+            },
+            r = function (a, b) {
+              a.classList
+                ? (b = a.classList.contains(b))
+                : ((a = a.classList ? a.classList : p(a).match(/\S+/g) || []),
+                  (b = 0 <= n(a, b)));
+              return b;
+            },
+            v = function () {
+              var a = t,
+                b = u;
+              a.classList
+                ? a.classList.remove(b)
+                : r(a, b) &&
+                  q(
+                    a,
+                    Array.prototype.filter
+                      .call(
+                        a.classList ? a.classList : p(a).match(/\S+/g) || [],
+                        function (c) {
+                          return c != b;
+                        }
+                      )
+                      .join(" ")
+                  );
+            };
+          function w() {
+            var a = k.navigator;
+            return a && (a = a.userAgent) ? a : "";
+          }
+          var x = function (a) {
+            x[" "](a);
+            return a;
+          };
+          x[" "] = function () {};
+          var y =
+            -1 != w().indexOf("Gecko") &&
+            !(
+              -1 != w().toLowerCase().indexOf("webkit") &&
+              -1 == w().indexOf("Edge")
+            ) &&
+            !(-1 != w().indexOf("Trident") || -1 != w().indexOf("MSIE")) &&
+            -1 == w().indexOf("Edge");
+          var z = function (a, b) {
+            this.type = a;
+            this.target = b;
+          };
+          z.prototype.g = function () {};
+          var A = (function () {
+            if (!k.addEventListener || !Object.defineProperty) return !1;
+            var a = !1,
+              b = Object.defineProperty({}, "passive", {
+                get: function () {
+                  a = !0;
+                },
+              });
+            try {
+              var c = function () {};
+              k.addEventListener("test", c, b);
+              k.removeEventListener("test", c, b);
+            } catch (d) {}
+            return a;
+          })();
+          var C = function (a) {
+            z.call(this, a ? a.type : "");
+            this.relatedTarget = this.target = null;
+            this.button =
+              this.screenY =
+              this.screenX =
+              this.clientY =
+              this.clientX =
+                0;
+            this.key = "";
+            this.keyCode = 0;
+            this.metaKey = this.shiftKey = this.altKey = this.ctrlKey = !1;
+            this.state = null;
+            this.pointerId = 0;
+            this.pointerType = "";
+            this.h = null;
+            if (a) {
+              var b = (this.type = a.type),
+                c =
+                  a.changedTouches && a.changedTouches.length
+                    ? a.changedTouches[0]
+                    : null;
+              this.target = a.target || a.srcElement;
+              var d = a.relatedTarget;
+              if (d) {
+                if (y) {
+                  a: {
+                    try {
+                      x(d.nodeName);
+                      var e = !0;
+                      break a;
+                    } catch (f) {}
+                    e = !1;
+                  }
+                  e || (d = null);
+                }
+              } else
+                "mouseover" == b
+                  ? (d = a.fromElement)
+                  : "mouseout" == b && (d = a.toElement);
+              this.relatedTarget = d;
+              c
+                ? ((this.clientX = void 0 !== c.clientX ? c.clientX : c.pageX),
+                  (this.clientY = void 0 !== c.clientY ? c.clientY : c.pageY),
+                  (this.screenX = c.screenX || 0),
+                  (this.screenY = c.screenY || 0))
+                : ((this.clientX = void 0 !== a.clientX ? a.clientX : a.pageX),
+                  (this.clientY = void 0 !== a.clientY ? a.clientY : a.pageY),
+                  (this.screenX = a.screenX || 0),
+                  (this.screenY = a.screenY || 0));
+              this.button = a.button;
+              this.keyCode = a.keyCode || 0;
+              this.key = a.key || "";
+              this.ctrlKey = a.ctrlKey;
+              this.altKey = a.altKey;
+              this.shiftKey = a.shiftKey;
+              this.metaKey = a.metaKey;
+              this.pointerId = a.pointerId || 0;
+              this.pointerType =
+                "string" === typeof a.pointerType
+                  ? a.pointerType
+                  : B[a.pointerType] || "";
+              this.state = a.state;
+              this.h = a;
+              a.defaultPrevented && C.j.g.call(this);
+            }
+          };
+          m(C, z);
+          var B = { 2: "touch", 3: "pen", 4: "mouse" };
+          C.prototype.g = function () {
+            C.j.g.call(this);
+            var a = this.h;
+            a.preventDefault ? a.preventDefault() : (a.returnValue = !1);
+          };
+          var D = "closure_listenable_" + ((1e6 * Math.random()) | 0);
+          var E = 0;
+          var F = function (a, b, c, d, e) {
+              this.listener = a;
+              this.proxy = null;
+              this.src = b;
+              this.type = c;
+              this.capture = !!d;
+              this.h = e;
+              this.key = ++E;
+              this.g = this.i = !1;
+            },
+            G = function (a) {
+              a.g = !0;
+              a.listener = null;
+              a.proxy = null;
+              a.src = null;
+              a.h = null;
+            };
+          var H = function (a) {
+            this.src = a;
+            this.g = {};
+            this.h = 0;
+          };
+          H.prototype.add = function (a, b, c, d, e) {
+            var f = a.toString();
+            a = this.g[f];
+            a || ((a = this.g[f] = []), this.h++);
+            var g;
+            a: {
+              for (g = 0; g < a.length; ++g) {
+                var h = a[g];
+                if (!h.g && h.listener == b && h.capture == !!d && h.h == e)
+                  break a;
+              }
+              g = -1;
+            }
+            -1 < g
+              ? ((b = a[g]), c || (b.i = !1))
+              : ((b = new F(b, this.src, f, !!d, e)), (b.i = c), a.push(b));
+            return b;
+          };
+          var I = "closure_lm_" + ((1e6 * Math.random()) | 0),
+            J = {},
+            K = 0,
+            M = function (a, b, c, d, e) {
+              if (d && d.once) return L(a, b, c, d, e);
+              if (Array.isArray(b)) {
+                for (var f = 0; f < b.length; f++) M(a, b[f], c, d, e);
+                return null;
+              }
+              c = N(c);
+              return a && a[D]
+                ? a.g(b, c, l(d) ? !!d.capture : !!d, e)
+                : O(a, b, c, !1, d, e);
+            },
+            O = function (a, b, c, d, e, f) {
+              if (!b) throw Error("a");
+              var g = l(e) ? !!e.capture : !!e,
+                h = P(a);
+              h || (a[I] = h = new H(a));
+              c = h.add(b, c, d, g, f);
+              if (c.proxy) return c;
+              d = Q();
+              c.proxy = d;
+              d.src = a;
+              d.listener = c;
+              if (a.addEventListener)
+                A || (e = g),
+                  void 0 === e && (e = !1),
+                  a.addEventListener(b.toString(), d, e);
+              else if (a.attachEvent) a.attachEvent(R(b.toString()), d);
+              else if (a.addListener && a.removeListener) a.addListener(d);
+              else throw Error("b");
+              K++;
+              return c;
+            },
+            Q = function () {
+              var a = S,
+                b = function (c) {
+                  return a.call(b.src, b.listener, c);
+                };
+              return b;
+            },
+            L = function (a, b, c, d, e) {
+              if (Array.isArray(b)) {
+                for (var f = 0; f < b.length; f++) L(a, b[f], c, d, e);
+                return null;
+              }
+              c = N(c);
+              return a && a[D]
+                ? a.h(b, c, l(d) ? !!d.capture : !!d, e)
+                : O(a, b, c, !0, d, e);
+            },
+            T = function (a) {
+              if ("number" !== typeof a && a && !a.g) {
+                var b = a.src;
+                if (b && b[D]) b.s(a);
+                else {
+                  var c = a.type,
+                    d = a.proxy;
+                  b.removeEventListener
+                    ? b.removeEventListener(c, d, a.capture)
+                    : b.detachEvent
+                    ? b.detachEvent(R(c), d)
+                    : b.addListener && b.removeListener && b.removeListener(d);
+                  K--;
+                  if ((c = P(b))) {
+                    d = a.type;
+                    if (d in c.g) {
+                      var e = c.g[d],
+                        f = n(e, a),
+                        g;
+                      (g = 0 <= f) && Array.prototype.splice.call(e, f, 1);
+                      g && (G(a), 0 == c.g[d].length && (delete c.g[d], c.h--));
+                    }
+                    0 == c.h && ((c.src = null), (b[I] = null));
+                  } else G(a);
+                }
+              }
+            },
+            R = function (a) {
+              return a in J ? J[a] : (J[a] = "on" + a);
+            },
+            S = function (a, b) {
+              if (a.g) a = !0;
+              else {
+                b = new C(b, this);
+                var c = a.listener,
+                  d = a.h || a.src;
+                a.i && T(a);
+                a = c.call(d, b);
+              }
+              return a;
+            },
+            P = function (a) {
+              a = a[I];
+              return a instanceof H ? a : null;
+            },
+            U = "__closure_events_fn_" + ((1e9 * Math.random()) >>> 0),
+            N = function (a) {
+              if ("function" === typeof a) return a;
+              a[U] ||
+                (a[U] = function (b) {
+                  return a.handleEvent(b);
+                });
+              return a[U];
+            };
+          var u,
+            t = document.documentElement,
+            V;
+          function W() {
+            T(V);
+            V = L(
+              t,
+              "mousedown",
+              function () {
+                v();
+                X();
+              },
+              { capture: !0 }
+            );
+          }
+          function X() {
+            T(V);
+            V = M(t, "keydown", function (a) {
+              if (9 === a.keyCode) {
+                a = t;
+                var b = u;
+                if (a.classList) a.classList.add(b);
+                else if (!r(a, b)) {
+                  var c = p(a);
+                  q(a, c + (0 < c.length ? " " + b : b));
+                }
+                W();
+              }
+            });
+          }
+          u = "zAoYTe";
+          X();
+        }.call(this));
+      </script>
+      <div class="cOl4Id">
+        <a href="/?sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQOwgC"
+          ><span class="V6gwVd">G</span><span class="iWkuvd">o</span
+          ><span class="cDrQ7">o</span><span class="V6gwVd">g</span
+          ><span class="ntlR9">l</span><span class="iWkuvd tJ3Myc">e</span></a
+        >
+      </div>
+      <div class="bz1lBb">
+        <form class="Pg70bf" id="sf">
+          <input name="sca_esv" value="d220b328ad44e505" type="hidden" /><input
+            name="sca_upv"
+            value="1"
+            type="hidden"
+          /><input name="ie" value="ISO-8859-1" type="hidden" />
+          <div class="H0PQec">
+            <div class="sbc esbc">
+              <input
+                class="noHIxc"
+                value="programming tutorials"
+                autocapitalize="none"
+                autocomplete="off"
+                name="q"
+                spellcheck="false"
+                type="text"
+              /><input name="oq" type="hidden" /><input
+                name="aqs"
+                type="hidden"
+              />
+              <div class="x"></div>
+              <div class="sc"></div>
+            </div>
+          </div>
+          <button id="qdClwb" type="submit"></button>
+        </form>
+      </div>
+      <noscript
+        ><meta
+          content="0;url=/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;gbv=1&amp;sei=Kb3QZbqaE6rM1sQPvoKH0AU"
+          http-equiv="refresh"
+        /><style>
+          table,
+          div,
+          span,
+          p {
+            display: none;
+          }
+        </style>
+        <div style="display: block">
+          Clique
+          <a
+            href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;gbv=1&amp;sei=Kb3QZbqaE6rM1sQPvoKH0AU"
+            >aqui</a
+          >
+          se voc n o for redirecionado em alguns segundos.
+        </div></noscript
+      >
+    </header>
+    <div id="main">
+      <div>
+        <div class="KP7LCb">
+          <div class="bRsWnc">
+            <div class="N6RWV">
+              <div class="Pg70bf Uv67qb">
+                <span class="OXXup">Todas</span
+                ><a
+                  class="eZt8xd"
+                  href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;tbm=vid&amp;source=lnms&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ_AUIBigB"
+                  >V deos</a
+                ><a
+                  class="eZt8xd"
+                  href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;tbm=isch&amp;source=lnms&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ_AUIBygC"
+                  >Imagens</a
+                ><a
+                  class="eZt8xd"
+                  href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;tbm=bks&amp;source=lnms&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ_AUICCgD"
+                  >Livros</a
+                >
+                <a
+                  href="/url?q=https://maps.google.com/maps%3Fq%3Dprogramming%2Btutorials%26um%3D1%26ie%3DUTF-8&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQiaAMCAkoBA&amp;usg=AOvVaw0W5KT75spK-eAUR9ZHhyx3"
+                  >Maps</a
+                >
+                <a
+                  href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;tbm=nws&amp;source=lnms&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ_AUICigF"
+                  >Not cias</a
+                >
+                <a
+                  href="/url?q=/search%3Fq%3Dprogramming%2Btutorials%26sca_esv%3Dd220b328ad44e505%26sca_upv%3D1%26ie%3DUTF-8%26tbm%3Dshop%26source%3Dlnms&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQiaAMCAsoBg&amp;usg=AOvVaw2As8TovgLoyU5ZeZdGWsnb"
+                  >Shopping</a
+                >
+                <div class="FElbsf">
+                  <a
+                    href="/advanced_search"
+                    style="white-space: nowrap"
+                    id="st-toggle"
+                    role="button"
+                    >Ferramentas de pesquisa</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Pg70bf wEsjbd Gx5Zad xpd EtOod pkphOe"
+          style="display: none"
+          id="st-card"
+        >
+          <style>
+            .wEsjbd {
+              background-color: #fff;
+              height: 44px;
+              white-space: nowrap;
+            }
+            .coPU8c {
+              height: 60px;
+              overflow-scrolling: touch;
+              overflow-x: auto;
+              overflow-y: hidden;
+            }
+            .Xj2aue {
+              height: 44px;
+              overflow: hidden;
+            }
+            .RnNGze {
+              margin: 11px 16px;
+            }
+            .wEsjbd div,
+            .wEsjbd a,
+            .wEsjbd li {
+              outline-width: 0;
+              outline: none;
+            }
+          </style>
+          <div class="Xj2aue">
+            <div class="coPU8c">
+              <div class="RnNGze">
+                <style>
+                  .PA9J5 {
+                    display: inline-block;
+                  }
+                  .RXaOfd {
+                    display: inline-block;
+                    height: 22px;
+                    position: relative;
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    padding-right: 16px;
+                    padding-left: 0;
+                    line-height: 22px;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                    font-size: 12px;
+                    color: #70757a;
+                  }
+                  .sa1toc {
+                    background: #fff;
+                    display: none;
+                    position: absolute;
+                    border: 1px solid #dadce0;
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+                    margin: 0;
+                    white-space: nowrap;
+                    z-index: 103;
+                    line-height: 17px;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 0;
+                  }
+                  .PA9J5:hover .sa1toc {
+                    display: block;
+                  }
+                  .mGSy8d a:active,
+                  .RXaOfd:active {
+                    color: #4285f4;
+                  }
+                </style>
+                <div class="PA9J5">
+                  <div class="RXaOfd" role="button" tabindex="0">
+                    <style>
+                      .TWMOUc {
+                        display: inline-block;
+                        padding-right: 14px;
+                        white-space: nowrap;
+                      }
+                      .vQYuGf {
+                        font-weight: bold;
+                      }
+                      .OmTIzf {
+                        border-color: #909090 transparent;
+                        border-style: solid;
+                        border-width: 4px 4px 0 4px;
+                        width: 0;
+                        height: 0;
+                        margin-left: -10px;
+                        top: 50%;
+                        margin-top: -2px;
+                        position: absolute;
+                      }
+                      .RXaOfd:active .OmTIzf {
+                        border-color: #4285f4 transparent;
+                      }
+                    </style>
+                    <div class="TWMOUc">Em qualquer idioma</div>
+                    <span class="OmTIzf"></span>
+                  </div>
+                  <ul class="sa1toc ozatM">
+                    <style>
+                      .ozatM {
+                        font-size: 12px;
+                        text-transform: uppercase;
+                      }
+                      .ozatM .yNFsl,
+                      .ozatM li {
+                        list-style-type: none;
+                        list-style-position: outside;
+                        list-style-image: none;
+                      }
+                      .yNFsl.SkUj4c,
+                      .yNFsl a {
+                        color: #70757a;
+                        text-decoration: none;
+                        padding: 6px 44px 6px 14px;
+                        line-height: 17px;
+                        display: block;
+                      }
+                      .SkUj4c {
+                        background-image: url(//ssl.gstatic.com/ui/v1/menu/checkmark2.png);
+                        background-position: right center;
+                        background-repeat: no-repeat;
+                      }
+                      .SkUj4c:active {
+                        background-color: #f8f9fa;
+                      }
+                    </style>
+                    <li class="yNFsl SkUj4c">Em qualquer idioma</li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=lr:lang_1pt&amp;lr=lang_pt&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIDQ"
+                        >Pesquisar p ginas em Portugu s</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="PA9J5">
+                  <div class="RXaOfd" role="button" tabindex="0">
+                    <div class="TWMOUc">Em qualquer data</div>
+                    <span class="OmTIzf"></span>
+                  </div>
+                  <ul class="sa1toc ozatM">
+                    <li class="yNFsl SkUj4c">Em qualquer data</li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:h&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIDw"
+                      >
+                        Na ltima hora</a
+                      >
+                    </li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:d&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIEA"
+                      >
+                        Nas ltimas 24 horas</a
+                      >
+                    </li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:w&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIEQ"
+                      >
+                        Na ltima semana</a
+                      >
+                    </li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:m&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIEg"
+                      >
+                        No ltimo m s</a
+                      >
+                    </li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=qdr:y&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIEw"
+                      >
+                        No ltimo ano</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="PA9J5">
+                  <div class="RXaOfd" role="button" tabindex="0">
+                    <div class="TWMOUc">Todos os resultados</div>
+                    <span class="OmTIzf"></span>
+                  </div>
+                  <ul class="sa1toc ozatM">
+                    <li class="yNFsl SkUj4c">Todos os resultados</li>
+                    <li class="yNFsl">
+                      <a
+                        href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;source=lnt&amp;tbs=li:1&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQpwUIFQ"
+                        >Ao p da letra</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script nonce="WjSt_V65YsYrcLpuCtabBA">
+            (function () {
+              var a = document.getElementById("st-toggle"),
+                b = document.getElementById("st-card");
+              a &&
+                b &&
+                a.addEventListener(
+                  "click",
+                  function (c) {
+                    b.style.display = b.style.display ? "" : "none";
+                    c.preventDefault();
+                  },
+                  !1
+                );
+            }.call(this));
+          </script>
+        </div>
+      </div>
+      <style>
+        .Gx5Zad {
+          background-color: #fff;
+          margin-bottom: 30px;
+          box-shadow: 0 0 0 1px #dfe1e5;
+          border-radius: 8px;
+        }
+        .pkphOe {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .EtOod > *:first-child {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+        .EtOod > *:last-child {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        .EtOod.avPKgf > *:last-child {
+          border-bottom-left-radius: 4px;
+        }
+        .EtOod > .qxDOhb > *:first-child {
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+        }
+        .EtOod > .qxDOhb > *:last-child {
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+        .fP1Qef {
+          background: transparent !important;
+          box-shadow: none !important;
+          border: none !important;
+        }
+        .Gx5Zad.fP1Qef {
+          margin-top: -12px;
+          margin-bottom: 18px;
+        }
+        .rl7ilb {
+          display: block;
+          clear: both;
+        }
+        .egMi0 {
+          margin-bottom: -19px;
+        }
+        .kCrYT {
+          padding: 12px 16px 12px;
+        }
+        a.fdYsqf {
+          color: #4b11a8;
+        }
+        .sCuL3 {
+          position: absolute;
+          width: 100%;
+          top: 0;
+          left: 0;
+          padding-top: 1px;
+          margin-bottom: -1px;
+        }
+        .j039Wc {
+          padding-top: 28px;
+          margin-bottom: -1px;
+        }
+        .DnJfK {
+          position: relative;
+        }
+        .l97dzf {
+          font-weight: 400;
+        }
+        .zBAuLc {
+          line-height: normal;
+          margin: 0;
+          padding: 0;
+        }
+        .BNeawe {
+          white-space: pre-line;
+          word-wrap: break-word;
+        }
+        .vvjwJb {
+          color: #1a0dab;
+          font-size: 20px;
+          line-height: 26px;
+        }
+        a:visited .vvjwJb,
+        .vvjwJb a:visited {
+          color: #4b11a8;
+        }
+        .vvjwJb.HrGdeb {
+          color: #fff;
+        }
+        a:visited .vvjwJb.HrGdeb,
+        .vvjwJb.HrGdeb a:visited {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .UPmit {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .UPmit.HrGdeb {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .UPmit.AP7Wnd {
+          color: #202124;
+        }
+        .lRVwie {
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+        .Ap5OSd {
+          padding-bottom: 12px;
+        }
+        .s3v9rd {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        .s3v9rd.HrGdeb {
+          color: #fff;
+        }
+        .s3v9rd.AP7Wnd {
+          color: #202124;
+        }
+        .mSx1Ee {
+          padding-left: 48px;
+          margin: 0;
+        }
+        .v9i61e {
+          padding-bottom: 8px;
+        }
+        .XLloXe {
+          color: #1a0dab;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        a:visited .XLloXe,
+        .XLloXe a:visited {
+          color: #4b11a8;
+        }
+        .XLloXe.HrGdeb {
+          color: #fff;
+        }
+        a:visited .XLloXe.HrGdeb,
+        .XLloXe.HrGdeb a:visited {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .r0bn4c.tr0dw {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .r0bn4c.rQMQod {
+          color: #70757a;
+        }
+        .lcJF1d {
+          border-radius: 8px;
+          margin-left: 16px;
+          float: right;
+        }
+        .h1hFNe {
+          display: inline-block;
+          position: relative;
+        }
+        .Q6Xouf {
+          overflow: hidden;
+        }
+        .G6SP0b {
+          display: inline-block;
+        }
+        .eeoFaf {
+          position: relative;
+        }
+        .oz9fhd {
+          background-color: rgba(0, 0, 0, 0.12);
+        }
+        .S9HcI {
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .UhWgBb {
+          background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABl0lEQVR4Ae2XveraUBiHY4xD3URx8F+9gHZW9EKEOgi9Cz8uQFtXiwRsobvgIoLXIfYCKrqoaadCk+Xp4HiSc15PQkvB512FB37xvB/Ok/8BXDqMWXMgICIi4MCaEW1cHFOZftBgxpkkTnygbi+osiTCRIhPxUbQ5wdSAnqPCQp84VF8PKmgyA4bthQlggI7bNnimQWfSYNvEvRJyzudoMpP0nKjnCxYkgWLJEFD+6ze8wsZIS/xghk6HN7wDRnTOIHLGR33F/IVCUdyqqCDHudewqhaqmAsEwijGqqCtUwgjGqlCg4ygTCqvSoIZAJhVFdVEMkEwqjCvyiwj+gt8oiy/8j/4G86QosSjZ6BKmhn2iqaqsDllFmz+x7X7Bw+ouMejYxJ/DyoZzRwflNLGpk+WTBPnskVAtJyoaRbW3qkpWtavHzS8Mm82XlssWVDXrb82ik2vJKu7x6+RTj5xw6QHjekXOjanFBlFoSCZzWnZH8EvmbKUdNzJtQER6ChXFoMWbHnSkjIlT0rBjTJyc/Y7OspkNYf1H6eRU02jH0AAAAASUVORK5CYII=);
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        .oyqqef {
+          background: rgba(32, 33, 36, 0.5);
+          position: absolute;
+          border-radius: 4px;
+          padding: 2px 6px;
+        }
+        .K8tyEc {
+          padding-bottom: 12px;
+        }
+        .mEUgP {
+          font-weight: bold;
+          font-size: 16px;
+          color: #000;
+          margin: 0;
+          padding: 12px 16px 0 16px;
+        }
+        .FCUp0c {
+          font-weight: bold;
+        }
+        .x54gtf {
+          height: 1px;
+          background-color: #dadce0;
+          margin: 0 16px;
+        }
+        .Q0HXG {
+          height: 1px;
+          background-color: #dadce0;
+        }
+        .C7GS5b {
+          margin-left: 12px;
+          display: table-cell;
+          vertical-align: middle;
+        }
+        .rkGIWe {
+          padding: 14px;
+        }
+        .xpc .hwc,
+        .xpx .hwx {
+          display: none;
+        }
+        .iIWm4b {
+          box-sizing: border-box;
+          min-height: 48px;
+        }
+        .fLtXsc {
+          padding: 14px;
+          position: relative;
+        }
+        .NtmAdb {
+          width: 40px;
+          height: 40px;
+          overflow: hidden;
+          margin-top: -10px;
+          margin-bottom: -16px;
+          margin-right: 8px;
+          border-radius: 4px;
+        }
+        .xpc .NtmAdb {
+          display: inline-block;
+        }
+        .xpx .NtmAdb {
+          display: none;
+        }
+        .Lt3Tzc {
+          display: inline-block;
+          padding-right: 26px;
+        }
+        .Lym8W {
+          width: 14px;
+          height: 20px;
+          position: relative;
+          margin: 0 auto;
+        }
+        .xCgLUe {
+          position: absolute;
+          right: 16px;
+          margin-top: -10px;
+          top: 50%;
+        }
+        .Lym8W div {
+          position: absolute;
+          border-left: 7px solid transparent;
+          border-right: 7px solid transparent;
+          width: 0;
+          height: 0;
+          left: 0;
+        }
+        .IyYaEd {
+          top: 7px;
+          border-top: 7px solid #70757a;
+        }
+        .ECUHQe {
+          top: 4px;
+          border-top: 7px solid #fff;
+        }
+        .AeQQub {
+          bottom: 7px;
+          border-bottom: 7px solid #70757a;
+        }
+        .YCU7eb {
+          bottom: 4px;
+          border-bottom: 7px solid #fff;
+        }
+        .qxDOhb {
+          border-radius: 0;
+        }
+        .yStFkb .xpd {
+          border-radius: 8px;
+          box-shadow: none;
+          border: 1px solid #dadce0;
+          margin-bottom: 0;
+        }
+        .ZTv9Bb {
+          display: block;
+        }
+        .nVTMpe {
+          border-radius: 8px;
+        }
+        .deIvCb {
+          font-size: 16px;
+          line-height: 20px;
+          font-weight: 400;
+        }
+        .deIvCb.HrGdeb {
+          color: #fff;
+        }
+        .deIvCb.AP7Wnd {
+          color: #202124;
+        }
+        .X7NTVe {
+          display: table;
+          width: 100%;
+          padding-right: 16px;
+          box-sizing: border-box;
+        }
+        .tHmfQe {
+          display: table-cell;
+          padding: 12px 0 12px 16px;
+        }
+        .UHtrk {
+          width: 72px;
+        }
+        .HBTM6d {
+          width: 30px;
+        }
+        .XS7yGd {
+          display: table-cell;
+          text-align: center;
+          vertical-align: middle;
+          padding: 12px 0 12px 8px;
+        }
+        .am3QBf {
+          display: table;
+          vertical-align: top;
+        }
+        .pkr8ib {
+          display: table-cell;
+          min-width: 40px;
+          padding-right: 8px;
+        }
+        .uEec3 {
+          font-size: 12px;
+          line-height: 16px;
+        }
+        .uEec3.HrGdeb {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .uEec3.AP7Wnd {
+          color: #70757a;
+        }
+        .Xb5VRe {
+          color: #1a0dab;
+        }
+        a:visited .Xb5VRe {
+          color: #4b11a8;
+        }
+        .Xb5VRe.tr0dw {
+          color: #fff;
+        }
+        a:visited .Xb5VRe.tr0dw {
+          color: rgba(255, 255, 255, 0.7);
+        }
+        .aJyiOc {
+          color: #202124;
+        }
+        .ZAfNud {
+          display: table;
+          width: 100%;
+        }
+        .naKQFc {
+          display: table-cell;
+          vertical-align: top;
+        }
+        .Ne5sAf {
+          vertical-align: middle;
+        }
+        .xevp3d {
+          overflow: hidden;
+        }
+        .XCaUNd {
+          display: block;
+        }
+        .mugnXc {
+          color: #3c4043;
+          font-size: 14px;
+        }
+        .Q0cixc {
+          display: block;
+          white-space: pre-line;
+          word-wrap: break-word;
+        }
+        .mugnXc.Q0cixc {
+          line-height: 22px;
+        }
+        .P1NWSe {
+          display: table;
+          width: 100%;
+          padding-top: 16px;
+          padding-bottom: 16px;
+          margin-bottom: -12px;
+        }
+        .wOMIed {
+          display: table-cell;
+          vertical-align: top;
+        }
+        .nkPlDb {
+          vertical-align: middle;
+        }
+        .JhFlyf {
+          color: #3c4043;
+          font-size: 14px;
+          text-align: center;
+        }
+        .VQFmSd {
+          display: block;
+          white-space: pre-line;
+          word-wrap: break-word;
+        }
+        .JhFlyf.VQFmSd {
+          line-height: 22px;
+        }
+        .f4J0H {
+          padding: 18px;
+        }
+        .oTWEpb {
+          padding-top: 12px;
+        }
+        .n1Qedd {
+          overflow: hidden;
+          text-align: center;
+        }
+        .KMAGC {
+          margin: 0 auto;
+          display: block;
+        }
+        .ho0sdc {
+          margin: 0 -50%;
+          display: inline-block;
+        }
+        .gGQDvd {
+          padding: 14px;
+          position: relative;
+        }
+        .Q71vJc {
+          display: block;
+          position: relative;
+          width: 100%;
+        }
+        .kjGX2 {
+          position: absolute;
+          left: 48px;
+          right: 0;
+          vertical-align: bottom;
+          display: inline-block;
+          color: #4d5156;
+        }
+        .ieB2Dd {
+          overflow: hidden;
+          margin-top: -10px;
+          margin-bottom: -16px;
+          margin-right: 8px;
+          border-radius: 4px;
+          display: inline-block;
+          border-radius: 50%;
+          padding: 10px;
+        }
+        .OEaqif {
+          width: 20px;
+          height: 20px;
+          display: block;
+        }
+        .RJI4s {
+          vertical-align: middle;
+        }
+        .rLshyf,
+        .BmP5tf {
+          padding-top: 12px;
+          padding-bottom: 12px;
+        }
+        .YOx3Ab {
+          padding-left: 16px;
+        }
+        .w1C3Le,
+        .BmP5tf,
+        .G5NbBd,
+        .CS4w5b {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        .G5NbBd {
+          padding-bottom: 12px;
+        }
+        .CS4w5b {
+          padding-top: 12px;
+        }
+        .nMymef {
+          display: flex;
+        }
+        .G5eFlf {
+          flex: 1;
+          display: block;
+        }
+        .nMymef span {
+          text-align: center;
+        }
+        .EYqSq {
+          margin: 6px 4px 9px 0;
+          border-radius: 100%;
+          display: inline-block;
+          height: 10px;
+          vertical-align: middle;
+          width: 10px;
+        }
+        .dfB0uf {
+          color: #3c4043;
+          font-weight: bold;
+        }
+        .IffyKc {
+          word-wrap: break-word;
+        }
+      </style>
+      <div></div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.w3schools.com/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAoQAg&amp;usg=AOvVaw02Q2KB7BoZ-6QXPEUGKFhC"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAoQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      W3Schools Online Web Tutorials
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.w3schools.com
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div class="v9i61e">
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Well organized and easy to understand Web building
+                      tutorials with lots of examples of how to use HTML, CSS,
+                      JavaScript, SQL, Python, PHP, Bootstrap, Java, ...
+                    </div>
+                  </div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.w3schools.com/c/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAU&amp;usg=AOvVaw31Jjzl8olsahnq-I_cZ6Er"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAU"
+                          ><span class="XLloXe AP7Wnd">C Tutorial</span></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.w3schools.com/html/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAY&amp;usg=AOvVaw06L6A8UYzX5D3toJ-93kDO"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAY"
+                          ><span class="XLloXe AP7Wnd">HTML Tutorial</span></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.w3schools.com/python/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAc&amp;usg=AOvVaw0y75wCOXNKVfIfucnBcwtL"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAc"
+                          ><span class="XLloXe AP7Wnd">Python Tutorial</span></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.w3schools.com/js/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAg&amp;usg=AOvVaw2RBWYvpYMchwC_p1BBK7Xh"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgKEAg"
+                          ><span class="XLloXe AP7Wnd"
+                            >JavaScript Tutorial</span
+                          ></a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.tutorialspoint.com/computer_programming/index.htm&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAcQAg&amp;usg=AOvVaw17EFr1TRx8cpnyUhpCeQB7"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAcQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Computer Programming Tutorial - Tutorialspoint
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.tutorialspoint.com &#8250; computer_programming
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div class="v9i61e">
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Computer Programming is fun and easy to learn provided you
+                      adopt a proper approach. This tutorial attempts to cover
+                      the basics of computer programming using a ...
+                    </div>
+                  </div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.tutorialspoint.com/computer_programming/computer_programming_environment.htm&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAU&amp;usg=AOvVaw1oQzW6UJYitzybntHdicyy"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAU"
+                          ><span class="XLloXe AP7Wnd"
+                            >Programming - Environment</span
+                          ></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.tutorialspoint.com/computer_programming/computer_programming_overview.htm&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAY&amp;usg=AOvVaw28L37xu62tTfzX4JG-Ckug"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAY"
+                          ><span class="XLloXe AP7Wnd">Overview</span></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.tutorialspoint.com/computer_programming/computer_programming_basics.htm&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAc&amp;usg=AOvVaw1WTdMmUEgF86b2q7KiWrdX"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAc"
+                          ><span class="XLloXe AP7Wnd">Basics</span></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.tutorialspoint.com/computer_programming/computer_programming_characters.htm&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAg&amp;usg=AOvVaw2n-NM8DLk5ZElFLQKom9hX"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgHEAg"
+                          ><span class="XLloXe AP7Wnd">Characters</span></a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAkQAg&amp;usg=AOvVaw0IiGZWRnHt8nw-pU9NSRaJ"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAkQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      What is Programming? A Handbook for Beginners -
+                      freeCodeCamp
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.freecodecamp.org &#8250; news &#8250;
+                    what-is-programmi...
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div class="v9i61e">
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      <span class="r0bn4c rQMQod">12 de dez. de 2022</span
+                      ><span class="r0bn4c rQMQod"> </span>Learn Python - Full
+                      Course for Beginners [Tutorial]. Physics. Physics requires
+                      running many simulations and programming is perfect for
+                      doing ...
+                    </div>
+                  </div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/%23-what-is-a-programing-language&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgJEAY&amp;usg=AOvVaw3n5QZSyVepPJvYkaEaK_3F"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgJEAY"
+                          ><span class="XLloXe AP7Wnd"
+                            >What a programming...</span
+                          ></a
+                        ></span
+                      >
+                      <span class="BNeawe"
+                        ><a
+                          href="/url?q=https://www.freecodecamp.org/news/what-is-programming-tutorial-for-beginners/%23-real-world-applications-of-programming&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgJEAc&amp;usg=AOvVaw1uZA3NPhkGjqXOmYGSm978"
+                          data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ0gJ6BAgJEAc"
+                          ><span class="XLloXe AP7Wnd"
+                            >Real-world applications of...</span
+                          ></a
+                        ></span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://edu.gcfglobal.org/en/computer-programming-basics/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAYQAg&amp;usg=AOvVaw2Kp4eoOHzMYq1bhJxIJ-_Y"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAYQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Free Computer Programming Basics Tutorial at GCFGlobal
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    edu.gcfglobal.org &#8250; computer-programming-basics
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Learn how to get started with computer programming,
+                      including what it is, what you need to know to succeed,
+                      and what tools it requires.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.programiz.com/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAQQAg&amp;usg=AOvVaw2_X4QRcLsUBLLFTAD5HLQa"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAQQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Programiz: Learn to Code for Free
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.programiz.com
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Learn to code in Python, C/C++, Java, and other popular
+                      programming languages with our easy to follow tutorials,
+                      examples, online compiler and references.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.simplilearn.com/tutorials/programming-tutorial&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAAQAg&amp;usg=AOvVaw2haR9Wpls4Knr29BcIdeRF"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAAQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Programming Tutorial for Beginners - Simplilearn.com
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.simplilearn.com &#8250; ... &#8250; Software Development
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      This programming tutorial will help you in understanding
+                      the various programming fundamentals, its coding decoding
+                      reasoning and so much more.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.freecodecamp.org/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAUQAg&amp;usg=AOvVaw3M1YClKl-mNAVqa_gpbFYo"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAUQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Learn to Code &#8212; For Free &#8212; Coding Courses for
+                      Busy People
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.freecodecamp.org
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Aside from the freeCodeCamp core curriculum, We have
+                      thousands of free, full-length books, courses, and
+                      programming tutorials. ... Bash Scripting Tutorial ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.youtube.com/watch%3Fv%3D__izua1kKeI&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQtwJ6BAgCEAE&amp;usg=AOvVaw0efWc0lmayucV_8_RKpANw"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQtwJ6BAgCEAE"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Programming for Beginners Tutorial with Python and C# -
+                      YouTube
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.youtube.com &#8250; watch
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <a
+              href="/url?q=https://www.youtube.com/watch%3Fv%3D__izua1kKeI&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuAJ6BAgCEAI&amp;usg=AOvVaw02n-KMDqSUA5x8UDZz7YuN"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuAJ6BAgCEAI"
+              ><div class="lcJF1d Q6Xouf G6SP0b eeoFaf">
+                <div style="width: 120px; height: 67px; position: static">
+                  <img
+                    class="h1hFNe"
+                    alt="V deo para programming tutorials"
+                    src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                    style="width: 120px; height: 67px"
+                    id="dimg_7"
+                    data-deferred="1"
+                  />
+                </div>
+                <div class="S9HcI oz9fhd"></div>
+                <div
+                  class="S9HcI UhWgBb"
+                  style="background-size: 36px"
+                ></div></div
+            ></a>
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      <span class="r0bn4c rQMQod">23 de ago. de 2021</span
+                      ><span class="r0bn4c rQMQod"> </span>This course teaches
+                      you everything you need to start programming! You will
+                      learn the difference ...<br />Dura o:
+                      <span class="r0bn4c rQMQod">5:05:58</span><br />Data da
+                      postagem:
+                      <span class="r0bn4c rQMQod">23 de ago. de 2021</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rl7ilb"></div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad xpd EtOod pkphOe">
+          <div class="K8tyEc">
+            <div class="mEUgP">
+              <span
+                ><div class="BNeawe">
+                  <span class="FCUp0c rQMQod">As pessoas tamb m perguntam</span>
+                </div></span
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="xpc">
+              <div class="duf-h">
+                <div
+                  class="fLtXsc iIWm4b"
+                  aria-expanded="false"
+                  id="tsuid_1"
+                  role="button"
+                  tabindex="0"
+                  data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuk56BAgIEAI"
+                >
+                  <div class="Lt3Tzc">How can I teach myself programming?</div>
+                  <div class="Lym8W xCgLUe">
+                    <div class="AeQQub hwc"></div>
+                    <div class="YCU7eb hwc"></div>
+                    <div class="IyYaEd hwx"></div>
+                    <div class="ECUHQe hwx"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="qxDOhb" id="accdef_1"></div>
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="xpc">
+              <div class="duf-h">
+                <div
+                  class="fLtXsc iIWm4b"
+                  aria-expanded="false"
+                  id="tsuid_2"
+                  role="button"
+                  tabindex="0"
+                  data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuk56BAgIEAs"
+                >
+                  <div class="Lt3Tzc">
+                    How can I learn programming tutorial?
+                  </div>
+                  <div class="Lym8W xCgLUe">
+                    <div class="AeQQub hwc"></div>
+                    <div class="YCU7eb hwc"></div>
+                    <div class="IyYaEd hwx"></div>
+                    <div class="ECUHQe hwx"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="qxDOhb" id="accdef_3"></div>
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="xpc">
+              <div class="duf-h">
+                <div
+                  class="fLtXsc iIWm4b"
+                  aria-expanded="false"
+                  id="tsuid_3"
+                  role="button"
+                  tabindex="0"
+                  data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuk56BAgIEBI"
+                >
+                  <div class="Lt3Tzc">
+                    What is programming language tutorial?
+                  </div>
+                  <div class="Lym8W xCgLUe">
+                    <div class="AeQQub hwc"></div>
+                    <div class="YCU7eb hwc"></div>
+                    <div class="IyYaEd hwx"></div>
+                    <div class="ECUHQe hwx"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="qxDOhb" id="accdef_5"></div>
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="xpc">
+              <div class="duf-h">
+                <div
+                  class="fLtXsc iIWm4b"
+                  aria-expanded="false"
+                  id="tsuid_4"
+                  role="button"
+                  tabindex="0"
+                  data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQuk56BAgIEBk"
+                >
+                  <div class="Lt3Tzc">What is computer tutorial program?</div>
+                  <div class="Lym8W xCgLUe">
+                    <div class="AeQQub hwc"></div>
+                    <div class="YCU7eb hwc"></div>
+                    <div class="IyYaEd hwx"></div>
+                    <div class="ECUHQe hwx"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="qxDOhb" id="accdef_7"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.codecademy.com/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAEQAg&amp;usg=AOvVaw2uXnIF8BykcilTqcm7wywT"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAEQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Codecademy: Learn to Code - for Free
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.codecademy.com
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Watch tutorials, project walkthroughs, and more.
+                      Workspaces. Build and share ... Want to use AI programming
+                      tools to improve your coding? Learn the basics of ...
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad fP1Qef xpd EtOod pkphOe">
+          <div class="egMi0 kCrYT">
+            <a
+              href="/url?q=https://www.hackerearth.com/practice/&amp;sa=U&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAsQAg&amp;usg=AOvVaw3CtuNrhs333hA-5o1siy_C"
+              data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAsQAg"
+              ><div class="DnJfK">
+                <div class="j039Wc">
+                  <h3 class="zBAuLc l97dzf">
+                    <div class="BNeawe vvjwJb AP7Wnd">
+                      Programming Tutorials and Practice Problems - HackerEarth
+                    </div>
+                  </h3>
+                </div>
+                <div class="sCuL3">
+                  <div class="BNeawe UPmit AP7Wnd lRVwie">
+                    www.hackerearth.com &#8250; practice
+                  </div>
+                </div>
+              </div></a
+            >
+          </div>
+          <div class="kCrYT">
+            <div>
+              <div class="BNeawe s3v9rd AP7Wnd">
+                <div>
+                  <div>
+                    <div class="BNeawe s3v9rd AP7Wnd">
+                      Practice programming skills with tutorials and practice
+                      problems of Basic Programming, Data Structures,
+                      Algorithms, Math, Machine Learning, Python.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="Gx5Zad xpd EtOod pkphOe">
+          <div class="K8tyEc">
+            <div class="mEUgP">
+              <span><div class="BNeawe">Pesquisas relacionadas</div></span>
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=Programming+Tutorial+for+Beginners&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAI"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAI"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_1"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      Programming Tutorial for Beginners
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=Programming+tutorial+PDF&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAQ"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAQ"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_3"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      Programming tutorial PDF
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=W3Schools&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAY"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAY"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_5"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      W3Schools
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=W3Schools+portugu%C3%AAs&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAg"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAg"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_9"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      W3Schools portugu s
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=W3Schools+HTML&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAo"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAo"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_11"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      W3Schools HTML
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=W3Schools+Python&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAw"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEAw"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_13"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      W3Schools Python
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=W3Schools+SQL&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEA4"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEA4"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_15"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      W3Schools SQL
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+          <div class="x54gtf"></div>
+          <div>
+            <div class="gGQDvd iIWm4b">
+              <a
+                class="Q71vJc"
+                href="/search?sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;q=Programming+Basics&amp;sa=X&amp;ved=2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEBA"
+                data-ved="2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ1QJ6BAgDEBA"
+                ><accordion-entry-search-icon
+                  ><span class="ieB2Dd"
+                    ><img
+                      class="OEaqif"
+                      alt=""
+                      src="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                      style="max-width: 20px; max-height: 20px"
+                      id="dimg_17"
+                      data-deferred="1" /></span
+                ></accordion-entry-search-icon>
+                <div class="kjGX2">
+                  <span
+                    ><div class="BNeawe s3v9rd AP7Wnd lRVwie">
+                      Programming Basics
+                    </div></span
+                  >
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div>
+          <div class="Gx5Zad xpd EtOod pkphOe BmP5tf">
+            <div class="nMymef Va3FIb lVm3ye">
+              <a
+                class="nBDE1b G5eFlf"
+                href="/search?q=programming+tutorials&amp;sca_esv=d220b328ad44e505&amp;sca_upv=1&amp;ie=UTF-8&amp;ei=Kb3QZbqaE6rM1sQPvoKH0AU&amp;start=10&amp;sa=N"
+                aria-label="Pr xima p gina"
+                >Mais &gt;</a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="EOlPnc">
+          <div class="Srfpq">
+            <div>
+              <span class="EYqSq unknown_loc"></span
+              ><span class="dfB0uf">59115, Natal - RN</span>
+            </div>
+            <span>Do seu endere o IP</span><span>&nbsp;-&nbsp;</span
+            ><a
+              class="IffyKc"
+              href="/url?q=https://support.google.com/websearch%3Fp%3Dws_settings_location%26hl%3Dpt-BR&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQty4IgAE&amp;usg=AOvVaw095V1ok2l7BiPyq8m0mCoo"
+              aria-label="Saiba mais sobre esse local"
+              tabindex="0"
+              >Saiba mais</a
+            >
+          </div>
+          <div>
+            <a
+              href="/url?q=https://accounts.google.com/ServiceLogin%3Fcontinue%3Dhttps://www.google.com/search%253Fq%253Dprogramming%252Btutorials%26hl%3Dpt-BR&amp;opi=89978449&amp;sa=U&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQxs8CCIEB&amp;usg=AOvVaw2jKNWru94vw11K0gXrU1ew"
+              >Fazer login</a
+            >
+          </div>
+          <div>
+            <a
+              class="xeDNfc"
+              href="https://www.google.com/preferences?hl=pt-BR&amp;fg=1&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQ5fUCCIIB"
+              >Configura es</a
+            ><a
+              class="xeDNfc"
+              href="https://policies.google.com/privacy?hl=pt-BR&amp;fg=1"
+              >Privacidade</a
+            ><a
+              class="xeDNfc"
+              href="https://policies.google.com/terms?hl=pt-BR&amp;fg=1"
+              >Termos</a
+            ><a
+              class="xeDNfc"
+              href="/setprefs?hl=pt-BR&amp;prev=https://www.google.com/search?q%3Dprogramming%2Btutorials%26pccc%3D1&amp;sig=0_NTLTx4w0RRiMG7OqdgrNYPzpRBQ%3D&amp;cs=2&amp;sa=X&amp;ved=0ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQjcAJCIMB"
+              >Tema escuro: desativado</a
+            >
+          </div>
+        </div>
+      </footer>
+      <script nonce="WjSt_V65YsYrcLpuCtabBA">
+        (function () {
+          var hl = "pt-BR";
+          (function () {
+            var f = this || self,
+              g = function (a) {
+                return a;
+              };
+            var h,
+              k = function () {
+                if (void 0 === h) {
+                  var a = null,
+                    b = f.trustedTypes;
+                  if (b && b.createPolicy) {
+                    try {
+                      a = b.createPolicy("goog#html", {
+                        createHTML: g,
+                        createScript: g,
+                        createScriptURL: g,
+                      });
+                    } catch (c) {
+                      f.console && f.console.error(c.message);
+                    }
+                    h = a;
+                  } else h = a;
+                }
+                return h;
+              };
+            var p = function (a, b) {
+              this.g = (a === l && b) || "";
+              this.h = m;
+            };
+            p.prototype.toString = function () {
+              return this.g;
+            };
+            var q = function (a) {
+                return a instanceof p && a.constructor === p && a.h === m
+                  ? a.g
+                  : "type_error:Const";
+              },
+              m = {},
+              l = {};
+            var r = function (a) {
+              this.g = a;
+            };
+            r.prototype.toString = function () {
+              return this.g + "";
+            };
+            var t = function (a) {
+                return a instanceof r && a.constructor === r
+                  ? a.g
+                  : "type_error:TrustedResourceUrl";
+              },
+              x = function () {
+                var a = {},
+                  b = q(new p(l, "/complete/search"));
+                if (!u.test(b)) throw Error("e`" + b);
+                var c = b.replace(v, function (e, d) {
+                  if (!Object.prototype.hasOwnProperty.call(a, d))
+                    throw Error("f`" + d + "`" + b + "`" + JSON.stringify(a));
+                  e = a[d];
+                  return e instanceof p ? q(e) : encodeURIComponent(String(e));
+                });
+                return w(c);
+              },
+              v = /%{(\w+)}/g,
+              u = RegExp(
+                "^((https:)?//[0-9a-z.:[\\]-]+/|/[^/\\\\]|[^:/\\\\%]+/|[^:/\\\\%]*[?#]|about:blank#)",
+                "i"
+              ),
+              y = /^([^?#]*)(\?[^#]*)?(#[\s\S]*)?/,
+              z = {},
+              w = function (a) {
+                var b = k();
+                a = b ? b.createScriptURL(a) : a;
+                return new r(a, z);
+              },
+              A = function (a, b, c) {
+                if (null == c) return b;
+                if ("string" === typeof c)
+                  return c ? a + encodeURIComponent(c) : "";
+                for (var e in c)
+                  if (Object.prototype.hasOwnProperty.call(c, e)) {
+                    var d = c[e];
+                    d = Array.isArray(d) ? d : [d];
+                    for (var n = 0; n < d.length; n++) {
+                      var O = d[n];
+                      null != O &&
+                        (b || (b = a),
+                        (b +=
+                          (b.length > a.length ? "&" : "") +
+                          encodeURIComponent(e) +
+                          "=" +
+                          encodeURIComponent(String(O))));
+                    }
+                  }
+                return b;
+              };
+            var B = {},
+              C = function (a) {
+                this.g = a;
+              };
+            C.prototype.toString = function () {
+              return this.g.toString();
+            };
+            function D(a, b) {
+              if (1 === a.nodeType) {
+                var c = a.tagName;
+                if ("SCRIPT" === c || "STYLE" === c) throw Error("g");
+              }
+              a.innerHTML =
+                b instanceof C && b.constructor === C
+                  ? b.g
+                  : "type_error:SafeHtml";
+            }
+            function E(a) {
+              a = null === a ? "null" : void 0 === a ? "undefined" : a;
+              var b = k();
+              a = b ? b.createHTML(a) : a;
+              return new C(a, B);
+            }
+            var F = document.querySelector(".l"),
+              G = document.querySelector("#sf"),
+              H = G.querySelector(".sbc"),
+              I = G.querySelector("[type=text]"),
+              J = G.querySelector("[type=submit]"),
+              K = G.querySelector(".sc"),
+              L = G.querySelector(".x"),
+              M = I.value,
+              N = [],
+              P = -1,
+              Q = M,
+              R,
+              S,
+              T;
+            M || (L && (L.style.display = "none"), U(!1));
+            function U(a) {
+              if (H.classList.contains("esbc")) {
+                var b = H.classList.contains("chsbc"),
+                  c = H.classList.contains("rtlsbc");
+                a &&
+                  ((K.style.display = "block"),
+                  b
+                    ? ((G.style.borderRadius = "20px 20px 0 0"),
+                      (K.style.borderBottom = "1px solid #DFE1E5"),
+                      (J.style.borderRadius = c ? "20px 0 0 0" : "0 20px 0 0"))
+                    : (H.style.borderRadius = c ? "0 8px 0 0" : "8px 0 0 0"));
+                a ||
+                  ((K.style.display = "none"),
+                  b
+                    ? ((G.style.borderRadius = "20px"),
+                      (K.style.borderBottom = "none"),
+                      (J.style.borderRadius = c
+                        ? "20px 0 0 20px"
+                        : "0 20px 20px 0"))
+                    : (H.style.borderRadius = c
+                        ? "0 8px 8px 0"
+                        : "8px 0 0 8px"));
+              }
+            }
+            function V() {
+              G.querySelector("[name=oq]").value = Q;
+              G.querySelector("[name=aqs]").value =
+                "heirloom-srp." +
+                (0 <= P ? P : "") +
+                "." +
+                (0 < N.length ? "0l" + N.length : "");
+            }
+            function W() {
+              R = null;
+              if (S) {
+                var a = {
+                  client: "heirloom-srp",
+                  hl: hl,
+                  json: "t",
+                  callback: "hS",
+                  q: S,
+                };
+                "undefined" !== typeof ds && ds && (a.ds = ds);
+                var b = document;
+                var c = "SCRIPT";
+                "application/xhtml+xml" === b.contentType &&
+                  (c = c.toLowerCase());
+                c = b.createElement(c);
+                b = x();
+                b = y.exec(t(b).toString());
+                var e = b[3] || "";
+                a = w(b[1] + A("?", b[2] || "", a) + A("#", e));
+                c.src = t(a);
+                var d, n;
+                (d = (a =
+                  null ==
+                  (n = (d = (
+                    (c.ownerDocument && c.ownerDocument.defaultView) ||
+                    window
+                  ).document).querySelector)
+                    ? void 0
+                    : n.call(d, "script[nonce]"))
+                  ? a.nonce || a.getAttribute("nonce") || ""
+                  : "") && c.setAttribute("nonce", d);
+                document.body.appendChild(c);
+                S = null;
+                R = setTimeout(W, 500);
+              }
+            }
+            function X() {
+              for (; K.firstChild; ) K.removeChild(K.firstChild);
+              N = [];
+              P = -1;
+              U(!1);
+            }
+            function Y() {
+              var a = K.querySelector(".scs");
+              a && (a.className = "");
+              0 <= P
+                ? ((a = K.childNodes[P]),
+                  (a.className = "scs"),
+                  (M = a.textContent))
+                : (M = Q);
+              I.value = M;
+            }
+            I.addEventListener(
+              "focus",
+              function () {
+                F && (F.style.display = "none");
+              },
+              !1
+            );
+            I.addEventListener(
+              "blur",
+              function () {
+                X();
+                F && (F.style.display = "");
+              },
+              !1
+            );
+            I.addEventListener(
+              "keyup",
+              function (a) {
+                M = I.value;
+                T = !1;
+                13 === a.which
+                  ? V()
+                  : 27 === a.which
+                  ? (X(), F && (F.style.display = ""), (M = Q), (I.value = M))
+                  : 40 === a.which
+                  ? (P++, P >= N.length && (P = -1), Y())
+                  : 38 === a.which
+                  ? (P--, -1 > P && (P = N.length - 1), Y())
+                  : (a = M)
+                  ? (L && (L.style.display = ""), (S = a), R || W(), (Q = a))
+                  : (L && (L.style.display = "none"),
+                    U(!1),
+                    X(),
+                    (Q = ""),
+                    (T = !0));
+              },
+              !1
+            );
+            J.addEventListener("click", V, !1);
+            L.addEventListener(
+              "click",
+              function () {
+                I.value = "";
+                L.style.display = "none";
+                U(!1);
+              },
+              !1
+            );
+            H.addEventListener(
+              "click",
+              function () {
+                I.focus();
+              },
+              !1
+            );
+            window.hS = function (a) {
+              if (!T) {
+                X();
+                0 === a[1].length && U(!1);
+                for (var b = 0; b < a[1].length; b++) {
+                  var c = a[1][b][0],
+                    e = document.createElement("div");
+                  D(e, E(c));
+                  e.addEventListener(
+                    "mousedown",
+                    function (d) {
+                      d.preventDefault();
+                      return !1;
+                    },
+                    !1
+                  );
+                  c = c.replace(/<\/?b>/g, "");
+                  e.addEventListener(
+                    "click",
+                    (function (d) {
+                      return function () {
+                        P = d;
+                        V();
+                        Y();
+                        X();
+                        G.submit();
+                      };
+                    })(b),
+                    !1
+                  );
+                  e.addEventListener(
+                    "mouseover",
+                    (function (d) {
+                      return function () {
+                        P !== d && ((P = d), Y());
+                      };
+                    })(b),
+                    !1
+                  );
+                  K.appendChild(e);
+                  U(!0);
+                  N.push(c);
+                }
+              }
+            };
+          }.call(this));
+        })();
+        (function () {
+          function b(a) {
+            for (a = a.target || a.srcElement; a && "A" !== a.nodeName; )
+              a = a.parentElement;
+            a &&
+              (a.href || "").match(/\/search.*[?&]tbm=isch/) &&
+              ((a.href += "&biw=" + document.documentElement.clientWidth),
+              (a.href += "&bih=" + document.documentElement.clientHeight));
+          }
+          document.addEventListener("click", b, !1);
+          document.addEventListener("touchStart", b, !1);
+        }.call(this));
+      </script>
+    </div>
+    <!-- cctlcm 5 cctlcm --><textarea
+      class="csi"
+      name="csi"
+      style="display: none"
+    ></textarea>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      (function () {
+        var e = "Kb3QZbqaE6rM1sQPvoKH0AU";
+        var sn = "web";
+        var timl = false;
+        (function () {
+          function B(a) {
+            if (!a || C(a)) return 0;
+            if (!a.getBoundingClientRect) return 1;
+            var c = function (b) {
+              return b.getBoundingClientRect();
+            };
+            return D(a, c) ? 0 : J(a, c);
+          }
+          function D(a, c) {
+            var b;
+            a: {
+              for (b = a; b && null !== b; b = b.parentElement)
+                if (
+                  "hidden" === b.style.overflow ||
+                  ("G-EXPANDABLE-CONTENT" === b.tagName &&
+                    "hidden" ===
+                      getComputedStyle(b).getPropertyValue("overflow"))
+                )
+                  break a;
+              b = null;
+            }
+            if (!b) return !1;
+            a = c(a);
+            c = c(b);
+            return (
+              a.bottom < c.top ||
+              a.top >= c.bottom ||
+              a.right < c.left ||
+              a.left >= c.right
+            );
+          }
+          function C(a) {
+            return "none" === a.style.display
+              ? !0
+              : document.defaultView && document.defaultView.getComputedStyle
+              ? ((a = document.defaultView.getComputedStyle(a)),
+                !!a &&
+                  ("hidden" === a.visibility ||
+                    ("0px" === a.height && "0px" === a.width)))
+              : !1;
+          }
+          function J(a, c) {
+            var b = c(a);
+            a = b.left + window.pageXOffset;
+            c = b.top + window.pageYOffset;
+            var f = b.width;
+            b = b.height;
+            var g = 0;
+            if (0 >= b && 0 >= f) return g;
+            var q = window.innerHeight || document.documentElement.clientHeight;
+            0 > c + b ? (g = 2) : c >= q && (g = 4);
+            if (
+              0 > a + f ||
+              a >= (window.innerWidth || document.documentElement.clientWidth)
+            )
+              g |= 8;
+            g || ((g = 1), c + b > q && (g |= 4));
+            return g;
+          }
+          var K = e,
+            L = sn,
+            M = "undefined" === typeof de ? !0 : !1 !== de,
+            N = [];
+          function O(a, c, b) {
+            a =
+              "/gen_204?atyp=csi&s=" +
+              L +
+              "&t=" +
+              a +
+              ("&lite=1&ei=" +
+                K +
+                "&conn=" +
+                (window.navigator && window.navigator.connection
+                  ? window.navigator.connection.type
+                  : -1) +
+                c);
+            c = "&rt=";
+            for (var f in b) (a += "" + c + f + "." + b[f]), (c = ",");
+            return a;
+          }
+          function P(a) {
+            a = { prt: a };
+            window.wsrt && (a.wsrt = window.wsrt);
+            return a;
+          }
+          function Q(a) {
+            window.ping ? window.ping(a) : (new Image().src = a);
+          }
+          (function () {
+            for (
+              var a = new Date().getTime() - window.start,
+                c = P(a),
+                b = 0,
+                f = 0,
+                g = 0,
+                q = document.getElementsByTagName("img"),
+                r = M
+                  ? "&biw=" + window.innerWidth + "&bih=" + window.innerHeight
+                  : "",
+                E = function () {
+                  r += "&ima=" + g;
+                  c.aft = b;
+                  Q(O("aft", r, c));
+                },
+                x = 0,
+                R = function (h, t, u) {
+                  var n = h.src;
+                  h.onload = function () {
+                    (u && n && n === h.src) ||
+                      ((f = new Date().getTime() - window.start),
+                      t && ++x === g && ((b = f), E()),
+                      (h.onload = null));
+                  };
+                },
+                S = 0,
+                d = void 0;
+              (d = q[S++]);
+
+            ) {
+              var v = B(d),
+                p = !!(v & 1);
+              p && ++g;
+              var l = d.hasAttribute("data-ilite"),
+                w = d.hasAttribute("data-deferred"),
+                F = d.hasAttribute("data-src") || d.hasAttribute("data-lzysrc"),
+                y = !w && !l && F;
+              N.push([
+                v,
+                w || l,
+                y,
+                !!(google.ldi && d.id && google.ldi[d.id]) || (l && F),
+              ]);
+              l =
+                ((v = d.complete && !w && !(p && y)) &&
+                  Number(d.getAttribute("data-iml"))) ||
+                0;
+              v && l
+                ? (p && ++x,
+                  l &&
+                    ((d = l - window.start),
+                    p && (b = Math.max(b, d)),
+                    (f = Math.max(f, d))))
+                : R(d, p, w || y);
+            }
+            b || (b = a);
+            f || (f = b);
+            x === g && E();
+            google.rglh && google.rglh();
+            window.addEventListener(
+              "load",
+              function () {
+                window.setTimeout(function () {
+                  c.ol = new Date().getTime() - window.start;
+                  timl && (c.iml = f);
+                  var h = window.performance && window.performance.timing;
+                  h &&
+                    ((c.rqst = h.responseEnd - h.requestStart),
+                    (c.rspt = h.responseEnd - h.responseStart));
+                  for (
+                    var t = (h = 0), u = 0, n = 0, G = 0, H = 0, T = 0, k;
+                    (k = N[T++]);
+
+                  ) {
+                    var m = k[0],
+                      z = k[1],
+                      I = k[2];
+                    k = k[3];
+                    var U = 0 == m,
+                      V = m & 8,
+                      A = m & 1;
+                    m = !A && m & 4;
+                    A && ((z && !k) || ++u, I && ++H);
+                    z && (A && k && ++h, m && !k && ++t);
+                    U || V ? I || ++G : z || ++n;
+                  }
+                  r +=
+                    "&ime=" +
+                    u +
+                    "&imel=" +
+                    H +
+                    ("&imex=" + n + "&imeh=" + G) +
+                    ("&imea=" + h + "&imeb=" + t);
+                  Q(O("all", r, c));
+                }, 0);
+              },
+              !1
+            );
+          })();
+        }.call(this));
+      })();
+      (function () {
+        window.google = window.google || {};
+        window.google.ishk = [];
+        function a() {
+          return (
+            window.scrollY + window.document.documentElement.clientHeight >=
+            Math.max(document.body.scrollHeight, document.body.offsetHeight)
+          );
+        }
+        function b() {
+          a() &&
+            0 === window.google.ishk.length &&
+            ((window.google.bs = !0), window.removeEventListener("scroll", b));
+        }
+        a()
+          ? (window.google.bs = !0)
+          : ((window.google.bs = !1), window.addEventListener("scroll", b));
+      }.call(this));
+    </script>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      window._setImagesSrc = function (f, c) {
+        function h(a) {
+          a.onerror = function () {
+            a.style.display = "none";
+          };
+          a.setAttribute("data-deferred", "2");
+          "data:" !== c.substring(0, 5) && a.setAttribute("data-defe", "1");
+          a.src = c;
+          var g;
+          (null == (g = google.c) ? 0 : g.di) && a.decode();
+        }
+        for (var d = 0; d < f.length; ++d) {
+          var b = f[d],
+            e =
+              document.getElementById(b) ||
+              document.querySelector('img[data-iid="' + b + '"]');
+          e
+            ? ((b = void 0),
+              (null == (b = google.c) ? 0 : b.setup) && google.c.setup(e),
+              h(e))
+            : ((google.iir = google.iir || {}), (google.iir[b] = c));
+        }
+      };
+      "undefined" === typeof window.google && (window.google = {});
+    </script>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      (function () {
+        var s =
+          "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAEMAeAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABQQGAQIDBwj/xABEEAABAwMCAwQFBwkHBQAAAAABAgMEAAUREiEGEzEUIkFRFmFxgZUyUlWR0dLUNkJicnWSobGzBxUXZaLB8CQlM0OC/8QAGgEAAgMBAQAAAAAAAAAAAAAAAgMAAQQFBv/EACcRAAICAQMCBQUAAAAAAAAAAAABAhEDEiExQVEEEyJSUyMyM0Kh/9oADAMBAAIRAxEAPwDzO025dydkNtrDYjxHpS1Yz3W0FWMeZIA99cotvmzG3nIcOTIbYTqeWyypYaHmogbDY9fKmnCsuDEcubdxlKjImW9yKh1LRd0qUpHgP0QqmzN8ttv4f/u+3T1NyYrr625IgalvlxKQFJ1Kw2QBpJOSAMpOdq7Mm03SMqSaW5WGrVcnYzcpq3TVx3Fhtt5EdZQtROAkKAwTnbHntXRqx3h0pDVouKypOpITEcOpJGQRt0wQffV1TxTYGbr2pmRLUy5Phv8AKUxpRHYYSsoZSAfzV6PUfDoaTWPiRDCLOi4y5CtF6NynqwSV6Q1o/W3Svb1ilOU3+oVLuQ+GeHY14tl2uU+7t22HbuTzXVRlPZ5iikbJOeoHgetdL1wXebbdewR4jtyBQhxp+EytaVoXkpOw7vyVbHyNSeEuKkWKxcRpcS05cZ5jKYQ9H5jSilaivUDtsFbVIb44mP8AD3EKZ1xlC8XFyOWXWQUaUIPeAKcaQBnYdd/M0uWu2Eqoq67VcW7cLk5b5iYCsYlKYUGjk4HfxipK+Gr+hKFKsV1CXMaD2JzvZ6Y7v8KvDnGtqfjOyGJUtmZKs6LSi3rRpjRl5xzteSNI6ju56+e1q4ousG1XGBc5E4RoTV1EhTAQhxyaeVo5ySlxXdAxtpSN+mcUpzl2Cpdzxxrhu+vLKGrJclrDYcKUxFkhJzg4x44OPPG1aR7HdpMTtca03B6Nvh5uKtSDg4OFAY2O3uNXPhfi+1RJ8643ebcHZqrkHmi5zXkqjgkhISHEhKxk7qBAHQHOKYQeP7TFuVodEiW3GjP3RchCG1DIfdKmTjx2PuoW5di6R58bBeRKVENmuXaUoC1MiI4VhJOAojGcE7Z862NguzS2TLts+JHckJjl9yG7pSoq09MbnrsNzjFXNPHFvHDqY5kyxcPR9UAuaDnnkgjveXrqbK45t10m3Nlhc6SZP91mOyllajlh7W93fDb66Xb7BFHm8L3VFzmRLdAuNwZjOqa7Qzb3UhRSATtglJ3Gx8x5iocWxXeZF7XEtFwkR8kc1mKtacjruB4Y38q9KncXx7fMbfeaukNn0kM90uRXGgY/K075Azv+bTJyXHn8GSJLFyZjtvxZn/cDoUltpx5SgxjmBSVkaB8hRydjUsh5PfLOuzi2Fb6XhPtzM4YRjlhzVhHXfGnr/AUVtfpzc8WnkyX3zFtjMZfNaSjlKTqy2nHygNWxO+9Yo0QxYuHrjfQ6qA03y2MBx195DSATnAyojJODsPKmg4AvvXVbfiLP3qYcF3ePZuFZ0iTzCldxabGgZIJZe33plK45tMgd2O838nupQMYAIHj5YB9nrro+ZHVTlRk0utkV70Avvzrd8RZ+9R/h/fvO2/EWfvU49MLX82R+4PtrPpha/myf3B9tH9H5P4VU/aJvQC/eJtvxFn71HoBfvO2/EWfvU59MLX82R+4Pto9MLX8yT+4Ptqqw/KX6/aJv8P794G2/EWfvVhP9n99T0FsGf8xZ3/1U69MLX82T+4PtrrD42tUaSh4tyVBJzp0AZ/jQShgr8hac/aIfQC+jxtuf2iz96sjgDiAjCE29xZOEoRcGSVHyHe61cY/9plpZkvumHJUHQkBOlO2PfRa+PLW+5b7aiO+FrltJDhQOpWAB16VlnoXEh8FfKPObFCakXB43BtfZoTLkiQ1qKFLCMAN56glZSknqAT4imbd9ushIYalGDFGSIsAdnaGf0U4z7VZPrrZlrlN8WS1Icw9L7E2oJJBJeLqh7gynP6w864ROzgYUoIOMd7aseSXqDSGDky+QH2kt3KbEysI1dpXoSQopOrB8ClW3kDUFS2b5Idg3KNCiXUK0x5qGks63s4Lb2kacK3AXgEKxkkE06kcXOupmRpKdbMkr0gOYU0VHYhRB+QFLKeneIPhVdW2xOut0k7FhbrritQ/NUokfwJpTlpYajYlebdZdW0+2tt1CihbaxhSFA4II8wc1mm3Fai7OhSVkqflWyK8+ondbhbAKj6yEgn2mitkd0Abx/wAhJP7Zj/0H6XKhyU5zHd+QF7IPySMg/VTGP+Qkn9sx/wCg/XE/3jHjuFSEpaU0gOFWkBSQCE533OCRjrg9KHxKfmOiYq07kNcZ9ttTjjLiEJUEkqTjBIyB9VaqYeQ0l5bLqWlHCXFIISr2Hoehqe61PluuNOctalvpQtZKR3xhOfD5yd/WPOuRRMeix2Fuo5RSt1tsuJwAnVlWemMhYG/gaRuuQ2lexom3S1NlaGdSUtB5RSoHSgpUoE77bIV9WPEZE26UVobW1ynFPIZ0O5QoKXnTkHfBwd/VXaOLnAaWphK2kuJ5hOB00KGT5bOH3qT44rtMkXNbst59xtTjLjSnCnSooUkq0qT7CSD+t08htguLXIsUy6hlL6mnAyokJcKTpJHkeh6H6qkPWycy2XFxXtACiVJTqAAAJOR4bjfp18jjR+a8+wlhegNpVqAQ2E+KiOngCteB+kfVjuq8z1xRGceCmktcpIU2k6U6NGx8DpyM+s+JqeohxVAloHfjuJc5iW+UpCg5lQOnu9d9KvqpzwzFTbuJbeq7RCtJkoZbAcGW3lEctRTnfScHBwP5FM3cJDbzryVJ1uuh5ZKAcryTn/UoesE1JtD7knie1vvaStdwjE6UgD/yJHQVauyFo4yedmC0hlckvvPS0YdeBSlttRQFaUoSlJUpKzhIxtS02KYI61LdRrbUULQsFO4ODg+0Gn/EGlHF1vecSvsYtraEEZwlZW8FZ8sqDg94pkbeHbW662oK1LGEJUCNIHTFZ809LNmDEpRtnmUqE4HMPx3EnYggE9fWNqWLW+28+wwXQ2RocPUerNeoXRmK8yJin9TzrYClqHeICQAD57AfUKoRkRI7T0ZIK3nnO8kZ7iQQdR8M7Yqoz3ok8KjG2yTxQ2HHYVxikqgS4jSI2flI5LaGltqHgpJT7woHxrNa3HTD4ZtEAg8yQ47cskAaEqPKQke0M6j7U4rNdLHekxM2j/kJJH+cx/6D9L5E1+SgJdUNOANCRgbDAPt/55VNtc63qskm1XN2RGC5bUpt9iOl7dKHEFJSVp+fnOfCjs3D307cfg6PxFHnxZHkbigITSjyQjMkagrmnVnOcDrlJz7coTv6qx2p7DY7g5WoIwhOyVZynGMY3Vtj841O7Nw99O3H4Oj8RWOzcPfTtx+Do/EUl4snVBa49yEqXIUgoLpIKAg7DKk4xgnx9/kPIULlPLQ8gr2eKS4dIyrTnH8Tn1kA1N7Nw99O3H4Oj8RR2bh76cuXwdH4ih8mS6F60+oropr2bh76duPwdH4it49vskp9LEW7XZ95fyW2rIFqV7AH81XlyXQmpCenvB1muNzvMGRCiOORosxlb8g4S22ErSTlZwM48M59VWPhrgWHKupE83gMRk8x1iXaTEDu4AQF81R3JBOB0B3G1XyW8GVsR0IQ3HQNCGW06EIT5BI2G+PrpcnpDUSDIjw1ouMZyMXgttEVt1w7AIWtwOADcHmOKIGRslG+ciq08mzsxX2prTqZqPkpbRkdNjnHl/vVmZUStaVZIKykH2bf7Ck1+s7Vww440lxSBgeBx5eeKTk33NHh5KLooc+74UqPHU4tQ2JUc4J+ylnYHHm3Hm2jraACiAd8kYHtq1+jKUuf9LHwVHbPh66tVrsDFug8pSAtS1cxRUOihuD7sClx52GZeNxLN4Sj3iDDWmW5DuDMVpgc3vsOBtASNh3m84ycahkk43NFW+HE5badQycDaijjmyxVCXjgzwckgZ8aKxRXpbOSjNFFFA2GFbZPnRRS2Eaq2SojqOlfSMa3w7I32W0xmojKUjZpOCvYbqPVR9as0UVzfHN0bPBpNlb/ALRr7c7ZYYr8GUWnFOOBR0JUDg7bEYpbwHcJXELiTd3S+QkK2ARv/wDOKKKwLgc/uJgdWHT3v/aP5VKjqKkJCt6KKeuBMuhLQ2gKSQkb7mujveKs77H+VFFVIJM6J2bJ8aKKKSEf/9k\x3d";
+        var i = ["dimg_7"];
+        _setImagesSrc(i, s);
+      })();
+    </script>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      (function () {
+        var s =
+          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAABAUlEQVR4AWMYesChoYElLjkzPj4lY3d8csZjIL4MxPNjUzPcSTYsISFLAqj5NBD/h+LPQPwbiT87NCuLh2gDgRr2QzXuT0jNMoBYksARn5zuHJ+UcR0kB6RXE2VYXHJGOlTDZmzyIJcB5e+D1CSkZDgQNBAaZv+jU1JkcKpJygiGeZ0I76a/Byq8jU9NZFqaCNTA48SE33/iDcw8TIyBt0GKQTFN0Msp6f2EIyUpo57YSIlLSrMhIg0WCIBcCfXSdlzJBsheTHQ6jEnOUgEFOLaEDbMIlhZBOYrorAdJk+nroVnvPsSgdGdoOF7HZyhZ2XPoGQoqjbCpIbt0AiejIQMArVLI7k/DXFkAAAAASUVORK5CYII\x3d";
+        var i = [
+          "dimg_1",
+          "dimg_3",
+          "dimg_5",
+          "dimg_9",
+          "dimg_11",
+          "dimg_13",
+          "dimg_15",
+          "dimg_17",
+        ];
+        _setImagesSrc(i, s);
+      })();
+    </script>
+    <script nonce="WjSt_V65YsYrcLpuCtabBA">
+      (function () {
+        var e = "Kb3QZbqaE6rM1sQPvoKH0AU";
+        (function () {
+          var a = e;
+          if (
+            2 ===
+            (window.performance &&
+              window.performance.navigation &&
+              window.performance.navigation.type)
+          ) {
+            var b = "",
+              c = [],
+              d =
+                void 0 !== window.google &&
+                void 0 !== window.google.kOPI &&
+                0 !== window.google.kOPI
+                  ? window.google.kOPI
+                  : null;
+            null != d && c.push(["opi", d.toString()]);
+            for (var f = 0; f < c.length; f++) {
+              if (0 === f || 0 < f) b += "&";
+              b += c[f][0] + "=" + c[f][1];
+            }
+            window.ping("/gen_204?ct=backbutton&ei=" + a + b);
+          }
+        }.call(this));
+      })();
+      (function () {
+        var b = [
+          function () {
+            google.tick && google.tick("load", "dcl");
+          },
+        ];
+        google.dclc = function (a) {
+          b.length ? b.push(a) : a();
+        };
+        function c() {
+          for (var a = b.shift(); a; ) a(), (a = b.shift());
+        }
+        window.addEventListener
+          ? (document.addEventListener("DOMContentLoaded", c, !1),
+            window.addEventListener("load", c, !1))
+          : window.attachEvent && window.attachEvent("onload", c);
+      }.call(this));
+      (function () {
+        var b = function (a) {
+          var c = 0;
+          return function () {
+            return c < a.length ? { done: !1, value: a[c++] } : { done: !0 };
+          };
+        };
+        var e = this || self;
+        var g, h;
+        a: {
+          for (var k = ["CLOSURE_FLAGS"], l = e, n = 0; n < k.length; n++)
+            if (((l = l[k[n]]), null == l)) {
+              h = null;
+              break a;
+            }
+          h = l;
+        }
+        var p = h && h[610401301];
+        g = null != p ? p : !1;
+        var q,
+          r = e.navigator;
+        q = r ? r.userAgentData || null : null;
+        function t(a) {
+          return g
+            ? q
+              ? q.brands.some(function (c) {
+                  return (c = c.brand) && -1 != c.indexOf(a);
+                })
+              : !1
+            : !1;
+        }
+        function u(a) {
+          var c;
+          a: {
+            if ((c = e.navigator)) if ((c = c.userAgent)) break a;
+            c = "";
+          }
+          return -1 != c.indexOf(a);
+        }
+        function v() {
+          return g ? !!q && 0 < q.brands.length : !1;
+        }
+        function w() {
+          return (
+            u("Safari") &&
+            !(
+              x() ||
+              (v() ? 0 : u("Coast")) ||
+              (v() ? 0 : u("Opera")) ||
+              (v() ? 0 : u("Edge")) ||
+              (v() ? t("Microsoft Edge") : u("Edg/")) ||
+              (v() ? t("Opera") : u("OPR")) ||
+              u("Firefox") ||
+              u("FxiOS") ||
+              u("Silk") ||
+              u("Android")
+            )
+          );
+        }
+        function x() {
+          return v()
+            ? t("Chromium")
+            : ((u("Chrome") || u("CriOS")) && !(v() ? 0 : u("Edge"))) ||
+                u("Silk");
+        }
+        function y() {
+          return (
+            u("Android") &&
+            !(
+              x() ||
+              u("Firefox") ||
+              u("FxiOS") ||
+              (v() ? 0 : u("Opera")) ||
+              u("Silk")
+            )
+          );
+        }
+        var z = v() ? !1 : u("Trident") || u("MSIE");
+        y();
+        x();
+        w();
+        Object.freeze(new (function () {})());
+        Object.freeze(new (function () {})());
+        var A = !z && !w(),
+          D = function (a) {
+            if (/-[a-z]/.test("ved")) return null;
+            if (A && a.dataset) {
+              if (y() && !("ved" in a.dataset)) return null;
+              a = a.dataset.ved;
+              return void 0 === a ? null : a;
+            }
+            return a.getAttribute(
+              "data-" + "ved".replace(/([A-Z])/g, "-$1").toLowerCase()
+            );
+          };
+        var E = [],
+          F = null;
+        function G(a) {
+          a = a.target;
+          var c = performance.now(),
+            f = [],
+            H = f.concat,
+            d = E;
+          if (!(d instanceof Array)) {
+            var m =
+              "undefined" != typeof Symbol &&
+              Symbol.iterator &&
+              d[Symbol.iterator];
+            if (m) d = m.call(d);
+            else if ("number" == typeof d.length) d = { next: b(d) };
+            else throw Error("a`" + String(d));
+            for (var B = []; !(m = d.next()).done; ) B.push(m.value);
+            d = B;
+          }
+          E = H.call(f, d, [c]);
+          if (a && a instanceof HTMLElement)
+            if (a === F) {
+              if ((c = 4 <= E.length))
+                c = 5 > (E[E.length - 1] - E[E.length - 4]) / 1e3;
+              if (c) {
+                c = google.getEI(a);
+                a.hasAttribute("data-ved")
+                  ? (f = a ? D(a) || "" : "")
+                  : (f = (f = a.closest("[data-ved]")) ? D(f) || "" : "");
+                f = f || "";
+                if (a.hasAttribute("jsname")) a = a.getAttribute("jsname");
+                else {
+                  var C;
+                  a =
+                    null == (C = a.closest("[jsname]"))
+                      ? void 0
+                      : C.getAttribute("jsname");
+                }
+                google.log(
+                  "rcm",
+                  "&ei=" + c + "&ved=" + f + "&jsname=" + (a || "")
+                );
+              }
+            } else (F = a), (E = [c]);
+        }
+        window.document.addEventListener("DOMContentLoaded", function () {
+          document.body.addEventListener("click", G);
+        });
+      }.call(this));
+      var w = function (a) {
+        var b = 0;
+        return function () {
+          return b < a.length ? { done: !1, value: a[b++] } : { done: !0 };
+        };
+      };
+      window.jsl = window.jsl || {};
+      window.jsl.dh = function (a, b, m) {
+        try {
+          var h = document.getElementById(a),
+            e;
+          if (!h && (null == (e = google.stvsc) ? 0 : e.dds)) {
+            e = [];
+            var f = e.concat,
+              c = google.stvsc.dds;
+            if (c instanceof Array) var n = c;
+            else {
+              var p =
+                "undefined" != typeof Symbol &&
+                Symbol.iterator &&
+                c[Symbol.iterator];
+              if (p) var g = p.call(c);
+              else if ("number" == typeof c.length) g = { next: w(c) };
+              else throw Error(String(c) + " is not an iterable or ArrayLike");
+              c = g;
+              var q;
+              for (g = []; !(q = c.next()).done; ) g.push(q.value);
+              n = g;
+            }
+            var r = f.call(e, n);
+            for (f = 0; f < r.length && !(h = r[f].getElementById(a)); f++);
+          }
+          if (h) (h.innerHTML = b), m && m();
+          else {
+            var d = {
+              id: a,
+              script: String(!!m),
+              milestone: String(google.jslm || 0),
+            };
+            google.jsla && (d.async = google.jsla);
+            var t = a.indexOf("_"),
+              k = 0 < t ? a.substring(0, t) : "",
+              u = document.createElement("div");
+            u.innerHTML = b;
+            var l = u.children[0];
+            if (
+              l &&
+              ((d.tag = l.tagName),
+              (d["class"] = String(l.className || null)),
+              (d.name = String(l.getAttribute("jsname"))),
+              k)
+            ) {
+              a = [];
+              var v = document.querySelectorAll('[id^="' + k + '_"]');
+              for (b = 0; b < v.length; ++b) a.push(v[b].id);
+              d.ids = a.join(",");
+            }
+            google.ml(
+              Error(k ? "Missing ID with prefix " + k : "Missing ID"),
+              !1,
+              d
+            );
+          }
+        } catch (x) {
+          google.ml(x, !0, { "jsl.dh": !0 });
+        }
+      };
+      (function () {
+        var x = false;
+        google.jslm = x ? 2 : 1;
+      })();
+      (function () {
+        (function () {
+          google.csct = {};
+          google.csct.ps =
+            "AOvVaw3tPF8yejjsFLtutnC6dJRa\x26ust\x3d1708265129350864";
+        })();
+      })();
+      (function () {
+        (function () {
+          google.csct.rd = true;
+        })();
+      })();
+      (function () {
+        (function () {
+          google.csct.rl = true;
+        })();
+      })();
+      (function () {
+        window.xp = function (b) {
+          function f(k, g, h) {
+            return "xp" + ("x" == g ? "c" : "x") + h;
+          }
+          for (var c = /\bxp(x|c)(\d?)\b/, a = b; a; ) {
+            var e = a.className,
+              d = e.match(c);
+            if (d) {
+              d = "c" == d[1];
+              a.className = e.replace(c, f);
+              b && b.setAttribute("aria-expanded", d);
+              if (d)
+                for (
+                  b = a.getElementsByTagName("img"), c = 0;
+                  c < b.length;
+                  ++c
+                )
+                  if (((a = b[c]), (e = a.getAttribute("data-ll"))))
+                    (a.src = e), a.removeAttribute("data-ll");
+              break;
+            }
+            a = a.parentElement;
+          }
+        };
+      })();
+      (function () {
+        (function () {
+          window.logVe = function (a) {
+            a &&
+              a.attributes["data-ved"] &&
+              window.ping("/gen_204?ved=" + a.attributes["data-ved"].value);
+          };
+        }.call(this));
+      })();
+      (function () {
+        (function () {
+          var id = "tsuid_1";
+          var lve = true;
+          (function () {
+            var e =
+                "undefined" !== typeof navigator &&
+                !/Opera/.test(navigator.userAgent) &&
+                /WebKit/.test(navigator.userAgent),
+              f = { A: 1, INPUT: 1, TEXTAREA: 1, SELECT: 1, BUTTON: 1 },
+              g = { Enter: 13, " ": 32 },
+              h = {
+                A: 13,
+                BUTTON: 0,
+                CHECKBOX: 32,
+                COMBOBOX: 13,
+                FILE: 0,
+                GRIDCELL: 13,
+                LINK: 13,
+                LISTBOX: 13,
+                MENU: 0,
+                MENUBAR: 0,
+                MENUITEM: 0,
+                MENUITEMCHECKBOX: 0,
+                MENUITEMRADIO: 0,
+                OPTION: 0,
+                RADIO: 32,
+                RADIOGROUP: 32,
+                RESET: 0,
+                SUBMIT: 0,
+                SWITCH: 32,
+                TAB: 0,
+                TREE: 13,
+                TREEITEM: 13,
+              },
+              k = { CHECKBOX: !0, FILE: !0, OPTION: !0, RADIO: !0 },
+              l = {
+                COLOR: !0,
+                DATE: !0,
+                DATETIME: !0,
+                "DATETIME-LOCAL": !0,
+                EMAIL: !0,
+                MONTH: !0,
+                NUMBER: !0,
+                PASSWORD: !0,
+                RANGE: !0,
+                SEARCH: !0,
+                TEL: !0,
+                TEXT: !0,
+                TEXTAREA: !0,
+                TIME: !0,
+                URL: !0,
+                WEEK: !0,
+              };
+            document.getElementById(id).onclick = function () {
+              window.xp(this);
+              lve && window.logVe(this);
+            };
+            document.getElementById(id).onkeydown = function (d) {
+              var c = d.which || d.keyCode;
+              !c && d.key && (c = g[d.key]);
+              e && 3 === c && (c = 13);
+              if (13 !== c && 32 !== c) c = !1;
+              else {
+                var a = d.target;
+                !a.getAttribute && a.parentNode && (a = a.parentNode);
+                var b;
+                if (!(b = "keydown" !== d.type)) {
+                  if ((b = "getAttribute" in a))
+                    b = !(
+                      (a.getAttribute("type") || a.tagName).toUpperCase() in l
+                    );
+                  b = !(
+                    b &&
+                    !(
+                      "BUTTON" === a.tagName.toUpperCase() ||
+                      (a.type && "FILE" === a.type.toUpperCase())
+                    ) &&
+                    !a.isContentEditable
+                  );
+                }
+                (b =
+                  b ||
+                  d.ctrlKey ||
+                  d.shiftKey ||
+                  d.altKey ||
+                  d.metaKey ||
+                  ((a.getAttribute("type") || a.tagName).toUpperCase() in k &&
+                    32 === c)) ||
+                  ((b = a.tagName in f) ||
+                    ((b = a.getAttributeNode("tabindex")),
+                    (b = null != b && b.specified)),
+                  (b = !(b && !a.disabled)));
+                if (b) c = !1;
+                else {
+                  b = (
+                    a.getAttribute("role") ||
+                    a.type ||
+                    a.tagName
+                  ).toUpperCase();
+                  var m = !(b in h) && 13 === c;
+                  a = "INPUT" !== a.tagName.toUpperCase() || !!a.type;
+                  c = (0 === h[b] % c || m) && a;
+                }
+              }
+              c &&
+                (d.preventDefault(),
+                window.xp(this),
+                lve && window.logVe(this));
+            };
+          }.call(this));
+        })();
+      })();
+      (function () {
+        window.jsl = window.jsl || {};
+        window.jsl.dh =
+          window.jsl.dh ||
+          function (i, c, d) {
+            try {
+              var e = document.getElementById(i);
+              if (e) {
+                e.innerHTML = c;
+                if (d) {
+                  d();
+                }
+              } else {
+                if (window.jsl.el) {
+                  window.jsl.el(new Error("Missing ID."), { id: i });
+                }
+              }
+            } catch (e) {
+              if (window.jsl.el) {
+                window.jsl.el(new Error("jsl.dh"));
+              }
+            }
+          };
+      })();
+      (function () {
+        window.jsl.dh(
+          "accdef_1",
+          "\x3cdiv\x3e\x3cdiv style\x3d\x22padding-bottom:12px;padding-top:0px\x22 class\x3d\x22hwc kCrYT\x22\x3e\x3cdiv class\x3d\x22yStFkb\x22\x3e\x3cdiv class\x3d\x22Gx5Zad xpd EtOod pkphOe\x22\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cdiv class\x3d\x22q4vBJc\x22\x3e\x3c/div\x3e\x3cspan\x3e\x3ch2 class\x3d\x22zBAuLc l97dzf\x22\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e\x3cspan class\x3d\x22FCUp0c rQMQod\x22\x3eHow to Start Coding\x3c/span\x3e\x3c/div\x3e\x3c/h2\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e1\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eFigure out why you want to learn to code.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e2\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eChoose which coding language you want to learn first.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e3\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eTake online courses.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e4\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eWatch video tutorials.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e5\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eRead books and ebooks.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e6\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eUse tools that make learning to code easier.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e7\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eCheck out how other people code.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22X7NTVe\x22\x3e\x3cdiv class\x3d\x22tHmfQe\x22\x3e\x3cdiv class\x3d\x22am3QBf\x22\x3e\x3cdiv class\x3d\x22pkr8ib\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3e8\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe deIvCb AP7Wnd\x22\x3eComplete coding projects.\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe uEec3 AP7Wnd\x22\x3e\x3cspan class\x3d\x22BNeawe\x22\x3e\x3ca href\x3d\x22/url?q\x3dhttps://blog.hubspot.com/website/how-to-start-coding\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQBg\x26amp;usg\x3dAOvVaw2PCZtAQTxPE7OdJQ6g6iz8\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQBg\x22\x3e\x3cspan class\x3d\x22uEec3 AP7Wnd\x22\x3e\x3cspan class\x3d\x22rQMQod Xb5VRe\x22\x3eHow to Start Coding: The Ultimate Guide for Beginner Programmers\x3c/span\x3e\x3c/span\x3e\x3c/a\x3e\x3c/span\x3e\n\x3cspan class\x3d\x22BNeawe\x22\x3e\x3ca href\x3d\x22/url?q\x3dhttps://blog.hubspot.com/website/how-to-start-coding\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQlqUEegQICBAH\x26amp;usg\x3dAOvVaw0ZKV85vzSw7TsPGIMZFZA3\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQlqUEegQICBAH\x22\x3e\x3cspan class\x3d\x22uEec3 AP7Wnd\x22\x3e\x3cspan class\x3d\x22rQMQod aJyiOc\x22\x3eblog.hubspot.com \u203a website \u203a how-to-start-coding\x3c/span\x3e\x3c/span\x3e\x3c/a\x3e\x3c/span\x3e\x3c/div\x3e\x3c/span\x3e\x3c/div\x3e\x3cdiv class\x3d\x22Q0HXG\x22\x3e\x3c/div\x3e\x3cdiv\x3e\x3ca href\x3d\x22/url?q\x3dhttps://blog.hubspot.com/website/how-to-start-coding\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQMHoECAgQCA\x26amp;usg\x3dAOvVaw24EySRNV1J0UYtdBBrCN0d\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQMHoECAgQCA\x22\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cdiv class\x3d\x22ZAfNud\x22\x3e\x3cdiv class\x3d\x22naKQFc Ne5sAf\x22 style\x3d\x22width:40px\x22\x3e\x3cdiv class\x3d\x22xevp3d\x22\x3e\x3cimg class\x3d\x22XCaUNd\x22 height\x3d\x2224\x22 src\x3d\x22data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAaklEQVRYw+2VOwqAQAwFcy0/13qFYLF6ZD1ALNxWUfSByEzqnSmykAgAuIkmFad+ViptCY3KOp6EGi0kSJAgsT/JB1PcgSuJbwfeX7Ra6z9y6zv0Z/oV/ZG+R38WGMzHJULFqq8Jpx7gp2wNbJTpL+jhtwAAAABJRU5ErkJggg\x3d\x3d\x22 style\x3d\x22margin:0px 16px 0px 0px\x22 width\x3d\x2224\x22\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22naKQFc Ne5sAf\x22\x3e\x3cspan class\x3d\x22mugnXc Q0cixc\x22\x3eMais itens...\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22P1NWSe\x22\x3e\x3cdiv class\x3d\x22wOMIed nkPlDb\x22\x3e\x3cspan class\x3d\x22JhFlyf VQFmSd\x22\x3e\x3ca class\x3d\x22f4J0H\x22 href\x3d\x22https://www.google.com/search?sca_esv\x3dd220b328ad44e505\x26amp;sca_upv\x3d1\x26amp;ie\x3dUTF-8\x26amp;ei\x3dKb3QZbqaE6rM1sQPvoKH0AU\x26amp;q\x3dHow+can+I+teach+myself+programming?\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEAk\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEAk\x22\x3eMais resultados\x3c/a\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e"
+        );
+      })();
+      (function () {
+        (function () {
+          var id = "tsuid_2";
+          var lve = true;
+          (function () {
+            var e =
+                "undefined" !== typeof navigator &&
+                !/Opera/.test(navigator.userAgent) &&
+                /WebKit/.test(navigator.userAgent),
+              f = { A: 1, INPUT: 1, TEXTAREA: 1, SELECT: 1, BUTTON: 1 },
+              g = { Enter: 13, " ": 32 },
+              h = {
+                A: 13,
+                BUTTON: 0,
+                CHECKBOX: 32,
+                COMBOBOX: 13,
+                FILE: 0,
+                GRIDCELL: 13,
+                LINK: 13,
+                LISTBOX: 13,
+                MENU: 0,
+                MENUBAR: 0,
+                MENUITEM: 0,
+                MENUITEMCHECKBOX: 0,
+                MENUITEMRADIO: 0,
+                OPTION: 0,
+                RADIO: 32,
+                RADIOGROUP: 32,
+                RESET: 0,
+                SUBMIT: 0,
+                SWITCH: 32,
+                TAB: 0,
+                TREE: 13,
+                TREEITEM: 13,
+              },
+              k = { CHECKBOX: !0, FILE: !0, OPTION: !0, RADIO: !0 },
+              l = {
+                COLOR: !0,
+                DATE: !0,
+                DATETIME: !0,
+                "DATETIME-LOCAL": !0,
+                EMAIL: !0,
+                MONTH: !0,
+                NUMBER: !0,
+                PASSWORD: !0,
+                RANGE: !0,
+                SEARCH: !0,
+                TEL: !0,
+                TEXT: !0,
+                TEXTAREA: !0,
+                TIME: !0,
+                URL: !0,
+                WEEK: !0,
+              };
+            document.getElementById(id).onclick = function () {
+              window.xp(this);
+              lve && window.logVe(this);
+            };
+            document.getElementById(id).onkeydown = function (d) {
+              var c = d.which || d.keyCode;
+              !c && d.key && (c = g[d.key]);
+              e && 3 === c && (c = 13);
+              if (13 !== c && 32 !== c) c = !1;
+              else {
+                var a = d.target;
+                !a.getAttribute && a.parentNode && (a = a.parentNode);
+                var b;
+                if (!(b = "keydown" !== d.type)) {
+                  if ((b = "getAttribute" in a))
+                    b = !(
+                      (a.getAttribute("type") || a.tagName).toUpperCase() in l
+                    );
+                  b = !(
+                    b &&
+                    !(
+                      "BUTTON" === a.tagName.toUpperCase() ||
+                      (a.type && "FILE" === a.type.toUpperCase())
+                    ) &&
+                    !a.isContentEditable
+                  );
+                }
+                (b =
+                  b ||
+                  d.ctrlKey ||
+                  d.shiftKey ||
+                  d.altKey ||
+                  d.metaKey ||
+                  ((a.getAttribute("type") || a.tagName).toUpperCase() in k &&
+                    32 === c)) ||
+                  ((b = a.tagName in f) ||
+                    ((b = a.getAttributeNode("tabindex")),
+                    (b = null != b && b.specified)),
+                  (b = !(b && !a.disabled)));
+                if (b) c = !1;
+                else {
+                  b = (
+                    a.getAttribute("role") ||
+                    a.type ||
+                    a.tagName
+                  ).toUpperCase();
+                  var m = !(b in h) && 13 === c;
+                  a = "INPUT" !== a.tagName.toUpperCase() || !!a.type;
+                  c = (0 === h[b] % c || m) && a;
+                }
+              }
+              c &&
+                (d.preventDefault(),
+                window.xp(this),
+                lve && window.logVe(this));
+            };
+          }.call(this));
+        })();
+      })();
+      (function () {
+        window.jsl.dh(
+          "accdef_3",
+          "\x3cdiv\x3e\x3cdiv style\x3d\x22padding-bottom:12px;padding-top:0px\x22 class\x3d\x22hwc kCrYT\x22\x3e\x3cdiv class\x3d\x22yStFkb\x22\x3e\x3cdiv class\x3d\x22Gx5Zad xpd EtOod pkphOe\x22\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3eStart Coding: Once you have a plan, start writing code to bring your project to life. Use the programming language you\x27ve been learning and apply the concepts you\x27ve studied. Test and Improve: After writing some code, test your project to see if it works as expected. If you encounter issues, debug and fix them.\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22x54gtf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3ca href\x3d\x22/url?q\x3dhttps://www.geeksforgeeks.org/how-to-learn-programming/\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQDw\x26amp;usg\x3dAOvVaw1e3x1p45j6gZ_i6xcuHsIa\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQDw\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe vvjwJb AP7Wnd\x22\x3e\x3cspan class\x3d\x22rQMQod Xb5VRe\x22\x3eHow to Learn Programming? - GeeksforGeeks\x3c/span\x3e\x3c/div\x3e\x3c/span\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe UPmit AP7Wnd\x22\x3ewww.geeksforgeeks.org \u203a how-to-learn-programming\x3c/div\x3e\x3c/span\x3e\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22P1NWSe\x22\x3e\x3cdiv class\x3d\x22wOMIed nkPlDb\x22\x3e\x3cspan class\x3d\x22JhFlyf VQFmSd\x22\x3e\x3ca class\x3d\x22f4J0H\x22 href\x3d\x22https://www.google.com/search?sca_esv\x3dd220b328ad44e505\x26amp;sca_upv\x3d1\x26amp;ie\x3dUTF-8\x26amp;ei\x3dKb3QZbqaE6rM1sQPvoKH0AU\x26amp;q\x3dHow+can+I+learn+programming+tutorial?\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEBA\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEBA\x22\x3eMais resultados\x3c/a\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e"
+        );
+      })();
+      (function () {
+        (function () {
+          var id = "tsuid_3";
+          var lve = true;
+          (function () {
+            var e =
+                "undefined" !== typeof navigator &&
+                !/Opera/.test(navigator.userAgent) &&
+                /WebKit/.test(navigator.userAgent),
+              f = { A: 1, INPUT: 1, TEXTAREA: 1, SELECT: 1, BUTTON: 1 },
+              g = { Enter: 13, " ": 32 },
+              h = {
+                A: 13,
+                BUTTON: 0,
+                CHECKBOX: 32,
+                COMBOBOX: 13,
+                FILE: 0,
+                GRIDCELL: 13,
+                LINK: 13,
+                LISTBOX: 13,
+                MENU: 0,
+                MENUBAR: 0,
+                MENUITEM: 0,
+                MENUITEMCHECKBOX: 0,
+                MENUITEMRADIO: 0,
+                OPTION: 0,
+                RADIO: 32,
+                RADIOGROUP: 32,
+                RESET: 0,
+                SUBMIT: 0,
+                SWITCH: 32,
+                TAB: 0,
+                TREE: 13,
+                TREEITEM: 13,
+              },
+              k = { CHECKBOX: !0, FILE: !0, OPTION: !0, RADIO: !0 },
+              l = {
+                COLOR: !0,
+                DATE: !0,
+                DATETIME: !0,
+                "DATETIME-LOCAL": !0,
+                EMAIL: !0,
+                MONTH: !0,
+                NUMBER: !0,
+                PASSWORD: !0,
+                RANGE: !0,
+                SEARCH: !0,
+                TEL: !0,
+                TEXT: !0,
+                TEXTAREA: !0,
+                TIME: !0,
+                URL: !0,
+                WEEK: !0,
+              };
+            document.getElementById(id).onclick = function () {
+              window.xp(this);
+              lve && window.logVe(this);
+            };
+            document.getElementById(id).onkeydown = function (d) {
+              var c = d.which || d.keyCode;
+              !c && d.key && (c = g[d.key]);
+              e && 3 === c && (c = 13);
+              if (13 !== c && 32 !== c) c = !1;
+              else {
+                var a = d.target;
+                !a.getAttribute && a.parentNode && (a = a.parentNode);
+                var b;
+                if (!(b = "keydown" !== d.type)) {
+                  if ((b = "getAttribute" in a))
+                    b = !(
+                      (a.getAttribute("type") || a.tagName).toUpperCase() in l
+                    );
+                  b = !(
+                    b &&
+                    !(
+                      "BUTTON" === a.tagName.toUpperCase() ||
+                      (a.type && "FILE" === a.type.toUpperCase())
+                    ) &&
+                    !a.isContentEditable
+                  );
+                }
+                (b =
+                  b ||
+                  d.ctrlKey ||
+                  d.shiftKey ||
+                  d.altKey ||
+                  d.metaKey ||
+                  ((a.getAttribute("type") || a.tagName).toUpperCase() in k &&
+                    32 === c)) ||
+                  ((b = a.tagName in f) ||
+                    ((b = a.getAttributeNode("tabindex")),
+                    (b = null != b && b.specified)),
+                  (b = !(b && !a.disabled)));
+                if (b) c = !1;
+                else {
+                  b = (
+                    a.getAttribute("role") ||
+                    a.type ||
+                    a.tagName
+                  ).toUpperCase();
+                  var m = !(b in h) && 13 === c;
+                  a = "INPUT" !== a.tagName.toUpperCase() || !!a.type;
+                  c = (0 === h[b] % c || m) && a;
+                }
+              }
+              c &&
+                (d.preventDefault(),
+                window.xp(this),
+                lve && window.logVe(this));
+            };
+          }.call(this));
+        })();
+      })();
+      (function () {
+        window.jsl.dh(
+          "accdef_5",
+          "\x3cdiv\x3e\x3cdiv style\x3d\x22padding-bottom:12px;padding-top:0px\x22 class\x3d\x22hwc kCrYT\x22\x3e\x3cdiv class\x3d\x22yStFkb\x22\x3e\x3cdiv class\x3d\x22Gx5Zad xpd EtOod pkphOe\x22\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3eA programming language is \x3cspan class\x3d\x22FCUp0c rQMQod\x22\x3ea set of instructions and syntax used to create software programs\x3c/span\x3e. Some of the key features of programming languages include: Syntax: The specific rules and structure used to write code in a programming language.\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22x54gtf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3ca href\x3d\x22/url?q\x3dhttps://www.geeksforgeeks.org/introduction-to-programming-languages/\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQFg\x26amp;usg\x3dAOvVaw1n9EbipwPJi-7Qw6LkBWDN\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQFg\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe vvjwJb AP7Wnd\x22\x3e\x3cspan class\x3d\x22rQMQod Xb5VRe\x22\x3eIntroduction to Programming Languages - GeeksforGeeks\x3c/span\x3e\x3c/div\x3e\x3c/span\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe UPmit AP7Wnd\x22\x3ewww.geeksforgeeks.org \u203a introduction-to-programming-languages\x3c/div\x3e\x3c/span\x3e\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22P1NWSe\x22\x3e\x3cdiv class\x3d\x22wOMIed nkPlDb\x22\x3e\x3cspan class\x3d\x22JhFlyf VQFmSd\x22\x3e\x3ca class\x3d\x22f4J0H\x22 href\x3d\x22https://www.google.com/search?sca_esv\x3dd220b328ad44e505\x26amp;sca_upv\x3d1\x26amp;ie\x3dUTF-8\x26amp;ei\x3dKb3QZbqaE6rM1sQPvoKH0AU\x26amp;q\x3dWhat+is+programming+language+tutorial?\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEBc\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEBc\x22\x3eMais resultados\x3c/a\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e"
+        );
+      })();
+      (function () {
+        (function () {
+          var id = "tsuid_4";
+          var lve = true;
+          (function () {
+            var e =
+                "undefined" !== typeof navigator &&
+                !/Opera/.test(navigator.userAgent) &&
+                /WebKit/.test(navigator.userAgent),
+              f = { A: 1, INPUT: 1, TEXTAREA: 1, SELECT: 1, BUTTON: 1 },
+              g = { Enter: 13, " ": 32 },
+              h = {
+                A: 13,
+                BUTTON: 0,
+                CHECKBOX: 32,
+                COMBOBOX: 13,
+                FILE: 0,
+                GRIDCELL: 13,
+                LINK: 13,
+                LISTBOX: 13,
+                MENU: 0,
+                MENUBAR: 0,
+                MENUITEM: 0,
+                MENUITEMCHECKBOX: 0,
+                MENUITEMRADIO: 0,
+                OPTION: 0,
+                RADIO: 32,
+                RADIOGROUP: 32,
+                RESET: 0,
+                SUBMIT: 0,
+                SWITCH: 32,
+                TAB: 0,
+                TREE: 13,
+                TREEITEM: 13,
+              },
+              k = { CHECKBOX: !0, FILE: !0, OPTION: !0, RADIO: !0 },
+              l = {
+                COLOR: !0,
+                DATE: !0,
+                DATETIME: !0,
+                "DATETIME-LOCAL": !0,
+                EMAIL: !0,
+                MONTH: !0,
+                NUMBER: !0,
+                PASSWORD: !0,
+                RANGE: !0,
+                SEARCH: !0,
+                TEL: !0,
+                TEXT: !0,
+                TEXTAREA: !0,
+                TIME: !0,
+                URL: !0,
+                WEEK: !0,
+              };
+            document.getElementById(id).onclick = function () {
+              window.xp(this);
+              lve && window.logVe(this);
+            };
+            document.getElementById(id).onkeydown = function (d) {
+              var c = d.which || d.keyCode;
+              !c && d.key && (c = g[d.key]);
+              e && 3 === c && (c = 13);
+              if (13 !== c && 32 !== c) c = !1;
+              else {
+                var a = d.target;
+                !a.getAttribute && a.parentNode && (a = a.parentNode);
+                var b;
+                if (!(b = "keydown" !== d.type)) {
+                  if ((b = "getAttribute" in a))
+                    b = !(
+                      (a.getAttribute("type") || a.tagName).toUpperCase() in l
+                    );
+                  b = !(
+                    b &&
+                    !(
+                      "BUTTON" === a.tagName.toUpperCase() ||
+                      (a.type && "FILE" === a.type.toUpperCase())
+                    ) &&
+                    !a.isContentEditable
+                  );
+                }
+                (b =
+                  b ||
+                  d.ctrlKey ||
+                  d.shiftKey ||
+                  d.altKey ||
+                  d.metaKey ||
+                  ((a.getAttribute("type") || a.tagName).toUpperCase() in k &&
+                    32 === c)) ||
+                  ((b = a.tagName in f) ||
+                    ((b = a.getAttributeNode("tabindex")),
+                    (b = null != b && b.specified)),
+                  (b = !(b && !a.disabled)));
+                if (b) c = !1;
+                else {
+                  b = (
+                    a.getAttribute("role") ||
+                    a.type ||
+                    a.tagName
+                  ).toUpperCase();
+                  var m = !(b in h) && 13 === c;
+                  a = "INPUT" !== a.tagName.toUpperCase() || !!a.type;
+                  c = (0 === h[b] % c || m) && a;
+                }
+              }
+              c &&
+                (d.preventDefault(),
+                window.xp(this),
+                lve && window.logVe(this));
+            };
+          }.call(this));
+        })();
+      })();
+      (function () {
+        window.jsl.dh(
+          "accdef_7",
+          "\x3cdiv\x3e\x3cdiv style\x3d\x22padding-bottom:12px;padding-top:0px\x22 class\x3d\x22hwc kCrYT\x22\x3e\x3cdiv class\x3d\x22yStFkb\x22\x3e\x3cdiv class\x3d\x22Gx5Zad xpd EtOod pkphOe\x22\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22BNeawe s3v9rd AP7Wnd\x22\x3eIn computer-based education, a tutorial is a computer program whose purpose is to assist users in learning how to use parts of a software product such as an office suite or any other application, operating system interface, programming tool, or video game.\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv class\x3d\x22x54gtf\x22\x3e\x3c/div\x3e\x3cdiv class\x3d\x22kCrYT\x22\x3e\x3ca href\x3d\x22/url?q\x3dhttps://en.wikipedia.org/wiki/Tutorial\x26amp;sa\x3dU\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQHQ\x26amp;usg\x3dAOvVaw11HDCq7aOJy1kdq5c1bzpL\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQFnoECAgQHQ\x22\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe vvjwJb AP7Wnd\x22\x3e\x3cspan class\x3d\x22rQMQod Xb5VRe\x22\x3eTutorial - Wikipedia\x3c/span\x3e\x3c/div\x3e\x3c/span\x3e\x3cspan\x3e\x3cdiv class\x3d\x22BNeawe UPmit AP7Wnd\x22\x3een.wikipedia.org \u203a wiki \u203a Tutorial\x3c/div\x3e\x3c/span\x3e\x3c/a\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3cdiv\x3e\x3cdiv class\x3d\x22P1NWSe\x22\x3e\x3cdiv class\x3d\x22wOMIed nkPlDb\x22\x3e\x3cspan class\x3d\x22JhFlyf VQFmSd\x22\x3e\x3ca class\x3d\x22f4J0H\x22 href\x3d\x22https://www.google.com/search?sca_esv\x3dd220b328ad44e505\x26amp;sca_upv\x3d1\x26amp;ie\x3dUTF-8\x26amp;ei\x3dKb3QZbqaE6rM1sQPvoKH0AU\x26amp;q\x3dWhat+is+computer+tutorial+program?\x26amp;sa\x3dX\x26amp;ved\x3d2ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEB4\x22 data-ved\x3d\x222ahUKEwj60v7SxbKEAxUqppUCHT7BAVoQzmd6BAgIEB4\x22\x3eMais resultados\x3c/a\x3e\x3c/span\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e\x3c/div\x3e"
+        );
+      })();
+      if (!google.stvsc) {
+        google.drty && google.drty(undefined, true);
+      }
+    </script>
+  </body>
+</html>
