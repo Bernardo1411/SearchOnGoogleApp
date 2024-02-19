@@ -42,9 +42,11 @@ const useApi = (locale: string) => {
   };
 
   const handleClick = () => {
-    if (locale && frequency && keywords)
+    if (locale && frequency && keywords) {
       setSearch({ locale, frequency, keywords });
-    else toast.error('Preencha todos os campos.');
+    } else {
+      toast.error('Preencha todos os campos.');
+    }
   };
 
   useEffect(() => {
