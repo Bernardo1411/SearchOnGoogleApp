@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { toast } from 'react-toastify';
 
 const useLocale = () => {
   const [locale, setLocale] = useState<string>('');
@@ -25,17 +26,23 @@ const useLocale = () => {
         // You can perform any other logic here
         setLocale(countryCode);
       } catch (err) {
-        console.error('Error getting user location:', err);
+        toast.error('Erro ao acessar a localização do usuário.', {
+          autoClose: 4000,
+          hideProgressBar: true,
+        });
       }
     };
 
     if (navigator.geolocation) {
       fetchLocale();
     } else {
-      console.error('Geolocation is not supported by this browser.');
+      toast.error('Geolocalização não suportada neste navegador.', {
+        autoClose: 4000,
+        hideProgressBar: true,
+      });
     }
   }, []);
-
+  console.log(locale);
   return { locale };
 };
 

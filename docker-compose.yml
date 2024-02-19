@@ -1,0 +1,22 @@
+version: "3"
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.frontend
+    ports:
+      - 3000:3000
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.backend
+    ports:
+      - 5001:5001
+
+  gobot:
+    build:
+      context: ./goBot
+      dockerfile: Dockerfile.gobot
+    ports:
+      - 5002:5002

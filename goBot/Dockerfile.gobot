@@ -1,0 +1,19 @@
+# Use the official Go image as the base image
+FROM golang:latest
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the main file and the go.mod file into the container
+COPY bot.go .
+COPY go.mod .
+COPY go.sum .
+
+# Build the Go application
+RUN go build -o bot
+
+# Expose port 5002
+EXPOSE 5002
+
+# Run the Go application
+CMD ["./bot"]
