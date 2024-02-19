@@ -22,7 +22,6 @@ export class AppService {
   }
 
   async saveSearchResults(results: object[], keywords: string): Promise<void> {
-    console.log('results', results);
     const collection = this.db.collection('SearchResults');
     await collection.insertOne({ results, keywords });
   }
