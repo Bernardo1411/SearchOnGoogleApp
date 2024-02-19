@@ -22,8 +22,6 @@ const useLocale = () => {
         const data = await response.json();
         const { country_code: countryCode } = data.address;
 
-        // Use the countryCode to determine the country
-        // You can perform any other logic here
         setLocale(countryCode);
       } catch (err) {
         toast.error('Erro ao acessar a localização do usuário.', {

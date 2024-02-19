@@ -21,10 +21,8 @@ export class AppController {
     },
   ): Promise<object[]> {
     try {
-      // Call the Go bot to simulate a search on Google
       const searchResult = await this.appService.callGoBot(searchParams);
 
-      // Call the service to save the search results on MongoDB
       await this.appService.saveSearchResults(
         searchResult,
         searchParams.keywords,
@@ -42,7 +40,6 @@ export class AppController {
   @Get('search')
   async getAllSearches(): Promise<object[]> {
     try {
-      // Call the service to retrieve all search results from MongoDB
       const searches = await this.appService.getAllSearches();
       return searches;
     } catch (error) {

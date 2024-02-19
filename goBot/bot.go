@@ -38,21 +38,17 @@ func handleSearch(w http.ResponseWriter, r *http.Request) {
         return
     }
 
-	// Simulate the search on Google
 	results := searchOnGoogle(searchReq.Locale, searchReq.Frequency, searchReq.Keywords)
 
-	// Send the results back to the backend
 	sendResultsToBackend(w, results)
 }
 
 func searchOnGoogle(locale, frequency string, keywords string) []link {
-	// Construct the search URL
 	searchURL := "https://www.google.com/search?" +
 		"&hl=" + url.QueryEscape(locale) +
 		"&tbs=qdr:" + url.QueryEscape(frequency) +
 		"&q=" + url.QueryEscape(keywords)
 
-	// Send a GET request to the search URL
 	resp, err := http.Get(searchURL)
 	if err != nil {
 		fmt.Println("Error:", err)
@@ -67,7 +63,6 @@ func searchOnGoogle(locale, frequency string, keywords string) []link {
 		return nil
 	}
 
-	// Extract the search results from the response body
 	results := extractResultsFromBody(string(bodyBytes))
 
 	return results
@@ -94,7 +89,6 @@ func extractResultsFromBody(body string) []link {
 
 		unformattedLink := s.Find("div.BNeawe.UPmit.AP7Wnd.lRVwie").Text()
 
-		// Remove the content after '>'
 		link.Link = strings.Split(unformattedLink, " ")[0]
 
 		results = append(results, link)
@@ -104,7 +98,6 @@ func extractResultsFromBody(body string) []link {
 }
 
 func sendResultsToBackend(w http.ResponseWriter, results []link) {
-	// Convert the results to JSON
 	jsonData, err := json.Marshal(results)
 
 	if err != nil {
@@ -112,10 +105,8 @@ func sendResultsToBackend(w http.ResponseWriter, results []link) {
 		return
 	}
 
-	// Set the response headers
 	w.Header().Set("Content-Type", "application/json")
 
-	// Write the response body
 	_, err = w.Write(jsonData)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusInternalServerError)

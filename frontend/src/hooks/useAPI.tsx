@@ -27,7 +27,6 @@ const useApi = (locale: string) => {
     }
   };
 
-  // Return the state and the function to call the API
   const getAllSearches = async () => {
     setLoading(true);
     try {
