@@ -1,9 +1,7 @@
 # Search On Google App
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Bernardo1411/NerdFlix/blob/master/LICENSE) 
 
-# About the project
-
-### Try using this user:
+# Sobre o projeto
 
 Este projeto cria uma interface que permite ao usuário realizar buscas no Google search. Além disso, o usuário acessa os melhores resultados e tem acesso as ultimas 5 pesquisas realizadas na plataforma.
 
@@ -13,7 +11,7 @@ Um bot foi desenvolvido na linguagem Go para realizar as buscas.
 ### Main page
 ![Web 1](https://github.com/Bernardo1411/SearchOnGoogleApp/blob/master/frontend/public/images/main.gif)
 
-# technologies
+# Tecnologias
 ## server-side and database
 - Node.js
 - Nest.js
@@ -27,7 +25,6 @@ Um bot foi desenvolvido na linguagem Go para realizar as buscas.
 - Not on production
 
 # How to execute the project
-## Front end web
 Requisites: npm, node, Go lang
 
 # Author
